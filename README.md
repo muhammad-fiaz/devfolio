@@ -28,17 +28,6 @@
 - To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
 - Push the generated code to the `master` branch of this repository.
 
-## 📚 Sections
-
-- [x] Profile Picture
-- [x] Skills
-- [x] Projects
-- [x] Connect With Me
-- [x] Visitor Count Stats
-- [ ] Experience
-- [ ] Education
-- [ ] Contact Me
-- [ ] Resume
 
 To view a live example, **[click here](https://muhammad-fiaz.github.io/)**
 
