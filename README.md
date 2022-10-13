@@ -5,12 +5,13 @@
 > https://muhammad-fiaz.github.io
 
 
-
 ## Website Preview
 
-<a href="https://muhammad-fiaz.github.io" target="_blank">
-    <img src="./readme-assets/Website_Demo.png" align="center" alt="website preview">
-</a><br><br>
+
+![muhammad-fiaz](https://user-images.githubusercontent.com/75434191/195672925-3ee28b7e-6bcd-42d8-8fd5-c8dcc32cc4eb.png)
+
+
+<br><br>
 
 > Make Sure to ⭐ the Repo if You liked it -- It Helps!
 
