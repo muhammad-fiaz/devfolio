@@ -1,37 +1,80 @@
-## Welcome to GitHub Pages
+# Personal Portfolio ⚡
 
-You can use the [editor on GitHub](https://github.com/muhammad-fiaz/muhammad-fiaz.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+> A clean, beautiful, ambient portfolio template for Software Developers!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> https://muhammad-fiaz.github.io
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Website Preview
 
-# Header 1
-## Header 2
-### Header 3
+<a href="https://muhammad-fiaz.github.io" target="_blank">
+    <img src="./readme-assets/Website_Demo.png" align="center" alt="website preview">
+</a><br><br>
 
-- Bulleted
-- List
+> Make Sure to ⭐ the Repo if You liked it -- It Helps!
 
-1. Numbered
-2. List
+## 📋 Features
 
-**Bold** and _Italic_ and `Code` text
+⚡️ Open-Source\
+⚡️ Valid HTML5 & CSS3\
+⚡️ Easy to modify
 
-[Link](url) and ![Image](src)
+## 📦 Installation & Deployment
+
+- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
+- Add or remove images from `muhammad-fiaz.github.io/assets/` directory as per your requirement.
+- I highly recommend to use [Github Pages](https://docs.github.com/en/pages) to deploy the website in EASIEST WAY.
+- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
+- Push the generated code to the `master` branch of this repository.
+
+## 📚 Sections
+
+- [x] Profile Picture
+- [x] Skills
+- [x] Projects
+- [x] Connect With Me
+- [x] Visitor Count Stats
+- [ ] Experience
+- [ ] Education
+- [ ] Contact Me
+- [ ] Resume
+
+To view a live example, **[click here](https://muhammad-fiaz.github.io/)**
+
+## 🛠️ Tools Used
+
+- [<b>Bootstrap v5</b>](https://getbootstrap.com/)
+- [<b>Fontawesome</b>](https://fontawesome.com/)
+- [<b>Google Fonts</b>](https://fonts.google.com/)
+- [<b>Tippy</b>](https://atomiks.github.io/tippyjs/)
+- [<b>Elfsight Visitor Counter Widget</b>](https://elfsight.com/visitor-counter-widget/)
+
+## 🚀 Contributing
+
+### Step 1: Clone The Repo 💡
+
+Fork the repository and then clone it locally by doing -
+
+```bash
+git clone https://github.com/muhammad-fiaz/muhammad-fiaz.github.io.git
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Step 2: Build Your Code 🔨
 
-### Jekyll Themes
+Start your magic by modifying the code and making changes of your own. Then push the commit using -
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/muhammad-fiaz/muhammad-fiaz.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```bash
+git add .
+git commit -m "<your commit message here>"
+git push YOUR_REPO_URL develop
+```
 
-### Support or Contact
+### Step 3: Create a new pull request 🔃
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
+
+
+
+
+Made with :heart: in India
