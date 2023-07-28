@@ -1,0 +1,31 @@
+{
+  "name": "documentations",
+  "version": "0.0.0",
+  "description": "A documentations website for my projects",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-fiaz/muhammad-fiaz.github.io.git"
+  },
+  "author": "Muhammad Fiaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muhammad-fiaz/muhammad-fiaz.github.io/issues"
+  },
+  "homepage": "https://github.com/muhammad-fiaz/muhammad-fiaz.github.io#readme",
+  "dependencies": {
+    "next": "^13.4.12",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.5",
+    "typescript": "^5.1.6"
+  }
+}
