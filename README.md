@@ -1,45 +1,30 @@
-# Personal Portfolio ⚡
+# [projects documentation website](https://muhammadfiaz.dev/)
 
-> A clean, beautiful, ambient portfolio template for Software Developers!
-
-> https://muhammad-fiaz.github.io
-
-
-## Website Preview
-
-
-![muhammad-fiaz](https://user-images.githubusercontent.com/75434191/195672925-3ee28b7e-6bcd-42d8-8fd5-c8dcc32cc4eb.png)
-
-
-<br><br>
+Welcome to the documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly. This guide will help you get started with contributing.
 
 > Make Sure to ⭐ the Repo if You liked it -- It Helps!
 
-## 📋 Features
+**Documentations of my Projects are or may not fully ready yet due to Active Projects development**
 
-⚡️ Open-Source\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Easy to modify
+## Making Changes
+You can contribute to the documentation in the following ways:
 
-## 📦 Installation & Deployment
+Fixing issues: Check our issue tracker for any open issues and try to fix them.
 
-- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
-- Add or remove images from `muhammad-fiaz.github.io/assets/` directory as per your requirement.
-- I highly recommend to use [Github Pages](https://docs.github.com/en/pages) to deploy the website in EASIEST WAY.
-- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
-- Push the generated code to the `master` branch of this repository.
+Improving existing content: Feel free to enhance the existing documentation, fix typos, or clarify instructions.
 
+Adding new content: If you believe that something is missing or want to add new sections, create new pages, or contribute examples, go ahead and do so.
 
-To view a live example, **[click here](https://muhammad-fiaz.github.io/)**
+> Note: If you are adding new content, make sure to update the sidebar as well if it's necessary.
 
-## 🛠️ Tools Used
+## Commit Guidelines
+Please follow these guidelines for your commits:
 
-- [<b>Bootstrap v5</b>](https://getbootstrap.com/)
-- [<b>Fontawesome</b>](https://fontawesome.com/)
-- [<b>Google Fonts</b>](https://fonts.google.com/)
-- [<b>Tippy</b>](https://atomiks.github.io/tippyjs/)
-- [<b>Elfsight Visitor Counter Widget</b>](https://elfsight.com/visitor-counter-widget/)
+- Use descriptive commit messages that explain the changes you made.
+- If your commit addresses an issue, reference it using the format: "Fixes #issue-number".
+- Ensure each commit is self-contained and includes only related changes.
 
+Please Check out [Code of Conduct](./CODE_OF_CONDUCT.md) for more details.
 ## 🚀 Contributing
 
 ### Step 1: Clone The Repo 💡
@@ -62,9 +47,14 @@ git push YOUR_REPO_URL develop
 
 ### Step 3: Create a new pull request 🔃
 
-After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
+After cloning & setting up the local project you can push the changes to your GitHub fork and make a pull request.
 
 
+Here's a list of technologies and tools used in this project:
+- [Next.js](https://nextjs.org/): A React framework for building server-side rendered React applications.
+- [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript that enhances code quality and provides better tooling support.
+- [Nextra Docs Theme](https://nextra.site/docs): A documentation theme for Next.js, which provides a clean and customizable layout for building documentation websites.
 
+For more information about Nextra Docs Theme, you can visit the [official website](https://nextra.site/docs).
 
-Made with :heart: by Fiaz
+This project is hosted on GitHub pages at https://muhammadfiaz.dev. If you like the project, don't forget to give it a star ⭐ on the repository – it helps the project gain visibility and appreciation from the community.
