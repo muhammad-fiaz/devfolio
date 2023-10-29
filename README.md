@@ -1,8 +1,6 @@
 # [projects documentation](https://muhammadfiaz.dev/)
 
-Welcome to the documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.
-
-> Make Sure to ⭐ the Repo if You liked it -- It Helps!
+Welcome to the documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.Make Sure to ⭐ the Repo if You liked it
 
 **Note:- Documentations of my Projects are or may not be fully ready yet due to Active Project development**
 
