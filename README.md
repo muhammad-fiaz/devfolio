@@ -55,4 +55,4 @@ Here's a list of technologies and tools used in this project:
 
 For more information about Nextra Docs Theme, you can visit the [official website](https://nextra.site/docs).
 
-This project is hosted on GitHub pages at https://muhammadfiaz.dev. If you like the project, don't forget to give it a star ⭐ on the repository – it helps the project gain visibility and appreciation from the community.
+
