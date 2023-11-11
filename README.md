@@ -1,4 +1,4 @@
-# [projects documentation](https://muhammadfiaz.dev/)
+# [project documentations](https://muhammadfiaz.dev/)
 
 Welcome to the documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.Make Sure to ⭐ the Repo if You liked it
 
