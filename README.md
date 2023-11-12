@@ -55,4 +55,9 @@ Here's a list of technologies and tools used in this project:
 
 For more information about Nextra Docs Theme, you can visit the [official website](https://nextra.site/docs).
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
+
+
 
