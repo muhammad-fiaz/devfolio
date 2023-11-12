@@ -57,7 +57,7 @@ For more information about Nextra Docs Theme, you can visit the [official websit
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 
 
