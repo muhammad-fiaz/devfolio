@@ -2,7 +2,7 @@
 
 Welcome to the documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.Make Sure to ⭐ the Repo if You liked it
 
-**Note:- Documentations of my Projects are or may not be fully ready yet due to Active Project development**
+**Note:- Documentations of my Projects are or may not be fully ready yet due to Active Project development but it may soon**
 
 ## Making Changes
 You can contribute to the documentation in the following ways:
