@@ -13,7 +13,22 @@ const withMDX = createMDX({
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["images.unsplash.com","avatars.githubusercontent.com","private-user-images.githubusercontent.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "private-user-images.githubusercontent.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
+
+
   },
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   experimental: {
