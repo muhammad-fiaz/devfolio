@@ -31,7 +31,22 @@ const nextConfig = {
         hostname: "raw.githubusercontent.com",
         port: "",
         pathname: "/**",
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'github.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.vercel.app',
+        pathname: '/api/**'
+      },
+      {
+        protocol: 'https',
+        hostname: '**.vercel.app',
+        pathname: '?app=muhammad-fiaz-git-main-muhammadfiaz.vercel.app'
+      },
     ],
 
   },
