@@ -1,9 +1,4 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://muhammadfiaz.dev
-Host: https://www.muhammadfiaz.dev
-Host: http://muhammadfiaz.dev
-Host: http://www.muhammadfiaz.dev
+Disallow: /api/*

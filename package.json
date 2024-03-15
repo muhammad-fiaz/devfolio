@@ -1,31 +1,55 @@
 {
-  "name": "documentations",
-  "version": "0.0.0",
-  "description": "A documentations website for my projects",
+  "name": "muhammad-fiaz.github.io",
+  "author": "muhammad-fiaz",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node lib/jsonGenerator.js && next dev",
+    "build": "node lib/jsonGenerator.js && next build",
+    "export": "next build && next export",
+    "lint": "next lint",
     "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/muhammad-fiaz/muhammad-fiaz.github.io.git"
-  },
-  "author": "Muhammad Fiaz",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/muhammad-fiaz/muhammad-fiaz.github.io/issues"
-  },
-  "homepage": "https://github.com/muhammad-fiaz/muhammad-fiaz.github.io#readme",
   "dependencies": {
-    "next": "^13.4.13",
-    "nextra": "latest",
-    "nextra-theme-docs": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.1.3",
+    "@types/mdx": "^2.0.11",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "github-slugger": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.358.0",
+    "marked": "^12.0.1",
+    "next": "14.1.3",
+    "next-mdx-remote": "^4.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-gtm-module": "^2.0.11",
+    "react-icons": "^5.0.1",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^3.0.1",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "20.10.1",
-    "typescript": "^5.1.6"
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "20.11.28",
+    "autoprefixer": "^10.4.18",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.1",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.1.3",
+    "jshint": "^2.13.6",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "sass": "^1.71.1",
+    "sharp": "^0.33.2",
+    "tailwind-bootstrap-grid": "^5.1.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.2"
   }
 }

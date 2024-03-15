@@ -1,4 +1,4 @@
-# [Devfolio](https://muhammadfiaz.dev/)
+# [Devfolio](https://muhammad-fiaz.github.io)
 
 Welcome to the documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.Make Sure to ⭐ the Repo if You liked it
 
@@ -50,10 +50,8 @@ After cloning & setting up the local project you can push the changes to your Gi
 
 Here's a list of technologies and tools used in this project:
 - [Next.js](https://nextjs.org/): A React framework for building server-side rendered React applications.
-- [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript that enhances code quality and provides better tooling support.
-- [Nextra Docs Theme](https://nextra.site/docs): A documentation theme for Next.js, which provides a clean and customizable layout for building documentation websites.
+- [Markdown](https://www.markdownguide.org/): A lightweight markup language with plain-text-formatting syntax.
 
-For more information about Nextra Docs Theme, you can visit the [official website](https://nextra.site/docs).
 
 ## License
 
