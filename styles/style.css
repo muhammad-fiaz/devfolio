@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    @apply text-base;
+  }
+  body {
+    @apply bg-body font-primary font-normal leading-relaxed text-text;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary font-bold leading-tight text-dark;
+  }
+  h1,
+  .h1 {
+    @apply text-h1-sm md:text-h1;
+  }
+  h2,
+  .h2 {
+    @apply text-h2-sm md:text-h2;
+  }
+  h3,
+  .h3 {
+    @apply text-h3-sm md:text-h3;
+  }
+  h4,
+  .h4 {
+    @apply text-h4;
+  }
+  h5,
+  .h5 {
+    @apply text-h5;
+  }
+  h6,
+  .h6 {
+    @apply text-h6;
+  }
+}
+@layer components {
+  .section {
+    @apply py-16;
+  }
+  .container {
+    @apply mx-auto px-4;
+  }
+  .form-inputs * {
+    @apply mb-5 leading-10;
+  }
+  .img-cover {
+    @apply leading-none;
+  }
+  .img-cover span {
+    @apply h-full w-full;
+  }
+  .img-cover img {
+    @apply object-cover;
+  }
+  .author-image {
+    @apply mr-2 align-top;
+  }
+  .author-image img {
+    @apply max-h-[25px] max-w-[25px] rounded-full;
+  }
+  .social-icons {
+    @apply space-x-4;
+  }
+  .social-icons li {
+    @apply inline-block;
+  }
+  .social-icons li a {
+    @apply block h-12 w-12 rounded-lg border border-light bg-transparent text-center text-white transition hover:border-primary hover:bg-primary;
+  }
+  .social-icons li a svg {
+    @apply m-auto h-12 text-lg;
+  }
+  .social-icons-simple {
+    @apply space-x-2;
+  }
+  .social-icons-simple li {
+    @apply inline-block;
+  }
+  .social-icons-simple li a {
+    @apply block p-3 text-dark transition hover:text-primary;
+  }
+  .social-icons-simple li a svg {
+    @apply text-lg;
+  }
+  .social-share {
+    @apply space-x-2;
+  }
+  .social-share li {
+    @apply inline-block;
+  }
+  .social-share li a {
+    @apply block p-3 transition hover:text-primary;
+  }
+  .form-input,
+  .form-textarea {
+    @apply rounded-lg border-border text-text focus:border-primary focus:ring-transparent;
+  }
+  .content {
+    @apply prose-blockquote:bg-theme-light prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h1-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h2-sm prose-h3:mt-4 prose-h3:text-h3-sm prose-h4:mt-4 prose-h5:mb-4 prose-h6:mb-6 prose-blockquote:border-primary prose-blockquote:p-4 md:prose-h1:text-h1 md:prose-h2:text-h2 md:prose-h3:text-h3;
+  }
+  input#nav-toggle:checked ~ label#show-button {
+    @apply hidden;
+  }
+  input#nav-toggle:checked ~ label#hide-button {
+    @apply flex md:hidden;
+  }
+  input#nav-toggle:checked ~ #nav-menu {
+    @apply block md:flex;
+  }
+  .navbar {
+    @apply relative flex flex-wrap items-center justify-between;
+  }
+  .navbar-brand image {
+    @apply max-h-full max-w-full;
+  }
+  .navbar-nav {
+    @apply text-center md:text-left;
+  }
+  .nav-item {
+    @apply mx-3;
+  }
+  .nav-link {
+    @apply p-3 text-lg font-semibold text-dark transition hover:text-primary md:p-4;
+  }
+  .nav-dropdown {
+    @apply mr-0;
+  }
+  .nav-dropdown-list {
+    @apply z-10 rounded-lg bg-white p-4 shadow transition;
+  }
+  .nav-dropdown-item {
+    @apply mb-1;
+  }
+  .nav-dropdown-link {
+    @apply min-w-[150px] py-1 text-lg font-semibold text-dark transition hover:text-primary;
+  }
+  .search-modal {
+    @apply invisible absolute top-0 left-0 right-0 z-10 h-10 bg-white opacity-0 transition md:h-full;
+  }
+  .search-modal .form-input {
+    @apply h-full w-full border-0 text-lg;
+  }
+  .search-modal .search-close {
+    @apply absolute top-1/2 right-2 -translate-y-1/2 p-3 text-h4;
+  }
+  .search-modal.open {
+    @apply visible opacity-100;
+  }
+  .btn {
+    @apply inline-block rounded-lg border px-5 py-2 font-semibold transition;
+  }
+  .btn-primary {
+    @apply bg-primary text-white;
+  }
+  .btn-outline-primary {
+    @apply border-primary bg-transparent hover:bg-primary hover:text-white;
+  }
+}
+@layer utilities {
+  b,
+  strong {
+    @apply font-semibold;
+  }
+  .shadow {
+    box-shadow: 0 10px 30px rgba(22, 28, 45, 0.1);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

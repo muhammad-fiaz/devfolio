@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://docs.muhammadfiaz.com/</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/about</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/contact</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/authors</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/privacy-policy</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/logly</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/authors/muhammad-fiaz</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/logging</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/portfolio</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/development</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/web</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/utility</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/opensource</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/opensource-project</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/logly</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python-utility</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python-logging</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python-opensource</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python-opensource-project</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python-opensource-utility</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python-opensource-logging</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python-opensource-logging-utility</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/python-opensource-logging-utility-project</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/portfolio</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/nextjs</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/typescript</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/react</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/opensource-portfolio</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/categories/template</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/logging</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/utility</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/opensource</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/opensource-project</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/logly</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python-utility</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python-logging</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python-opensource</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python-opensource-project</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python-opensource-utility</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python-opensource-logging</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python-opensource-logging-utility</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/python-opensource-logging-utility-project</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/nextjs</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/typescript</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/react</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/portfolio</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/opensource-portfolio</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.muhammadfiaz.com/tags/template</loc>
+  <lastmod>2024-03-16T07:12:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
