@@ -2,7 +2,7 @@
 title: Portfolio Website | Muhammad Fiaz
 description: "Welcome to my portfolio repository! This open-source project, built with Next.js and TypeScript, creates a dynamic and responsive portfolio. Explore the code to perfect your showcase of skills!"
 date: 2023-04-10
-image: "https://private-user-images.githubusercontent.com/75434191/284063330-44252d99-9dff-4e5f-9bec-819e3fca7fb3.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MzM4NjIsIm5iZiI6MTcxMDQzMzU2MiwicGF0aCI6Ii83NTQzNDE5MS8yODQwNjMzMzAtNDQyNTJkOTktOWRmZi00ZTVmLTliZWMtODE5ZTNmY2E3ZmIzLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDE2MjYwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIyMGQyMDQ5Y2JkMGQ1NzI5NzVkYjM5NjYyMDQ0ZmM5NzRkYzQ1ZWRjYTQyNzFiM2JmOWJiYmQxZjU1MTJjZDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sxJ5Hsz0J_6pp_GNokhvALOQZmEZbk6FuR6qfsTdmYM"
+image: "/images/portfolio.png"
 categories: ["development","web", "portfolio", "nextjs", "typescript", "react", "opensource", "opensource-project","opensource-portfolio","template"]
 authors: ["muhammad-fiaz"]
 tags: ["nextjs", "typescript", "react", "portfolio", "opensource", "opensource-project", "opensource-portfolio", "template"]
