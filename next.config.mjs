@@ -14,38 +14,11 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "avatars.githubusercontent.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "private-user-images.githubusercontent.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "raw.githubusercontent.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: 'https',
-        hostname: 'github.com',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: '**.vercel.app',
-        pathname: '/api/**'
-      },
+
       {
         protocol: 'https',
         hostname: '**',
-        pathname: '/**'
+
       },
     ],
 
