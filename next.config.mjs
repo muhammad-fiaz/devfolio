@@ -44,8 +44,8 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: '**.vercel.app',
-        pathname: '?app=muhammad-fiaz-git-main-muhammadfiaz.vercel.app'
+        hostname: '**',
+        pathname: '/**'
       },
     ],
 
