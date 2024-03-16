@@ -13,7 +13,7 @@ const SimilarPosts = ({ posts }) => {
         <div key={`key-${i}`} className={"col-12 mb-4 sm:col-4"}>
           {post.frontmatter.image && (
             <Image
-              className="rounded-lg w-full h-64 object-cover sm:h-48 md:h-64 lg:h-80 xl:h-96"
+              className="rounded-lg w-full h-64 object-cover sm:h-48 md:h-64 mb-2 lg:h-80 xl:h-96"
               src={post.frontmatter.image}
               alt={post.frontmatter.title}
               width={1000}
@@ -21,6 +21,16 @@ const SimilarPosts = ({ posts }) => {
               loading={"lazy"}
             />
           )}
+          <h3 className="h4">
+            <Link href={`/${post.slug}`} className="block hover:text-primary">
+              {post.frontmatter.title}
+            </Link>
+          </h3>
+          <p className="text-text">
+            {post.frontmatter.description && post.frontmatter.description.length > summary_length
+              ? `${post.frontmatter.description.slice(0, summary_length)}...`
+              : post.frontmatter.description}
+          </p>
           <ul className="mt-4 text-text">
             <li className="mb-2 mr-4 inline-block">
               {dateFormat(post.frontmatter.date)}
@@ -47,16 +57,6 @@ const SimilarPosts = ({ posts }) => {
               </ul>
             </li>
           </ul>
-          <h3 className="h4">
-            <Link href={`/${post.slug}`} className="block hover:text-primary">
-              {post.frontmatter.title}
-            </Link>
-          </h3>
-          <p className="text-text">
-            {post.frontmatter.description && post.frontmatter.description.length > summary_length
-              ? `${post.frontmatter.description.slice(0, summary_length)}...`
-              : post.frontmatter.description}
-          </p>
         </div>
       ))}
     </div>

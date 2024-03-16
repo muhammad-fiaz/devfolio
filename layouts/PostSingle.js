@@ -48,7 +48,8 @@ const PostSingle = ({ post, posts, authors, slug }) => {
                     </Link>
                   ))}
               </li>
-              <li>{dateFormat(date)}</li>
+            </ul>
+            <ul className="mt-4 mb-8 flex flex-wrap items-center justify-center space-x-3 text-text">
               <li>
                 <ul>
                   {categories.map((category, i) => (
@@ -77,15 +78,13 @@ const PostSingle = ({ post, posts, authors, slug }) => {
                   />
                 </div>
               </div>
-
-
             )}
             <div className="content mb-16 text-left ">
               <MDXRemote {...mdxContent} components={shortcodes}/>
             </div>
             <div className="flex flex-wrap items-center justify-between">
               <ul className="mr-4 mb-4 space-x-3">
-              {tags.map((tag, i) => (
+                {tags.map((tag, i) => (
                   <li className="inline-block" key={`tag-${i}`}>
                     <Link
                       href={`/tags/${slugify(tag)}`}
@@ -102,6 +101,8 @@ const PostSingle = ({ post, posts, authors, slug }) => {
                 description={description}
                 slug={slug}
               />
+              Updated on {dateFormat(date)}
+
             </div>
           </article>
         </div>

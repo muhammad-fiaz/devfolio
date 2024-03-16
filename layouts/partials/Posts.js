@@ -15,7 +15,7 @@ const Posts = ({ posts, authors, className }) => {
               <Link href={`/${slugify(post.slug)}`} className="cursor-pointer">
 
               <Image
-                className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-md transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer hover:shadow-lg"
+                className="absolute inset-0 w-full h-full object-cover mb-2 rounded-lg shadow-md transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer hover:shadow-lg"
                 width={1000}
                 height={1000}
                 src={post.frontmatter.image}
@@ -26,6 +26,18 @@ const Posts = ({ posts, authors, className }) => {
               </Link>
             </div>
           )}
+          {/* Title */}
+          <h3 className="mb-1">
+            <Link href={`/${post.slug}`} className="block hover:text-primary">
+              {post.frontmatter.title}
+            </Link>
+          </h3>
+          {/* Description */}
+          <p className="text-text">
+            {post.frontmatter.description && post.frontmatter.description.length > summary_length
+              ? `${post.frontmatter.description.slice(0, summary_length)}...`
+              : post.frontmatter.description}
+          </p>
           <ul className="mt-4 mb-4 flex flex-wrap items-center space-x-3 text-text">
             {/* Author */}
             <li>
@@ -54,6 +66,7 @@ const Posts = ({ posts, authors, className }) => {
                   </Link>
                 ))}
             </li>
+
             {/* Date */}
             <li>{dateFormat(post.frontmatter.date)}</li>
             {/* Categories */}
@@ -79,18 +92,7 @@ const Posts = ({ posts, authors, className }) => {
               </ul>
             </li>
           </ul>
-          {/* Title */}
-          <h3 className="mb-2">
-            <Link href={`/${post.slug}`} className="block hover:text-primary">
-              {post.frontmatter.title}
-            </Link>
-          </h3>
-          {/* Description */}
-          <p className="text-text">
-            {post.frontmatter.description && post.frontmatter.description.length > summary_length
-              ? `${post.frontmatter.description.slice(0, summary_length)}...`
-              : post.frontmatter.description}
-          </p>
+
         </div>
       ))}
     </div>
