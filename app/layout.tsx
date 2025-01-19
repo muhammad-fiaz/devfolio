@@ -5,6 +5,7 @@ import type { ReactNode } from 'react';
 import 'fumadocs-twoslash/twoslash.css';
 import {source} from "@/lib/source";
 import {notFound} from "next/navigation";
+import {siteConfig} from "@/site.config";
 
 export async function generateMetadata(props: {
     params: Promise<{ slug?: string[] }>;
@@ -14,8 +15,8 @@ export async function generateMetadata(props: {
     if (!page) notFound();
 
     return {
-        title: "Documentations | Fiaz Technologies",
-        description: "Your one-stop destination for quick and seamless access to our documentation and resources.",
+        title: `Documentations | ${siteConfig.name}`,
+        description: siteConfig.description,
     }
 }
 const inter = Inter({

@@ -1,4 +1,5 @@
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
+import {siteConfig} from "@/site.config";
 
 /**
  * Shared layout configurations
@@ -10,9 +11,9 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 export const baseOptions: BaseLayoutProps = {
   nav: {
     // can be JSX too!
-    title: 'Fiaz Technologies',
+    title: siteConfig.name,
   },
-  githubUrl:"https://github.com/fiaztechnologies",
+  githubUrl: siteConfig.links.github_org,
   links: [
     {
       text: 'Home',

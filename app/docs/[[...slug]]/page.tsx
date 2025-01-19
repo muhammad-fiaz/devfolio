@@ -11,6 +11,7 @@ import { metadataImage } from '@/lib/metadata';
 import { Popup, PopupContent, PopupTrigger } from 'fumadocs-twoslash/ui';
 import { openapi } from '@/lib/source';
 import { getGithubLastEdit } from 'fumadocs-core/server';
+import {siteConfig} from "@/site.config";
 
 export default async function Page(props: {
     params: Promise<{ slug?: string[] }>;
@@ -26,7 +27,7 @@ export default async function Page(props: {
         process.env.NODE_ENV === 'development'
             ? null
             : await getGithubLastEdit({
-                owner: 'muhammad-fiaz',
+                owner:  siteConfig.links.github.username,
                 repo: 'devfolio',
                 path: `content/docs/${page.file.path}`,
                 token: process.env.GIT_TOKEN
@@ -39,7 +40,7 @@ export default async function Page(props: {
             toc={page.data.toc}
             full={page.data.full}
             editOnGithub={{
-                owner: 'muhammad-fiaz',
+                owner: siteConfig.links.github.username,
                 repo: 'devfolio',
                 sha: 'main',
                 path: `content/docs/${page.file.path}`,

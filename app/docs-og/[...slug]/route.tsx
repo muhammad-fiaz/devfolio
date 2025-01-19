@@ -5,8 +5,6 @@ export const GET = metadataImage.createAPI((page) => {
     return generateOGImage({
         title: page.data.title,
         description: page.data.description,
-        site: 'Fiaz Technologies',
-
     });
 });
 

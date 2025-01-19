@@ -1,6 +1,8 @@
 import { Config } from 'tailwindcss';
 import { createPreset } from 'fumadocs-ui/tailwind-plugin';
 
+import tailwindcss_animate from "tailwindcss-animate";
+
 const tailwindConfig:Config= {
     darkMode: ['class'],
     content: [
@@ -11,10 +13,8 @@ const tailwindConfig:Config= {
     './node_modules/fumadocs-ui/dist/**/*.js',
     './node_modules/fumadocs-openapi/dist/**/*.js',
   ],
-  presets: [createPreset({
-    preset: 'neutral',
-  })],
-    plugins: [require("tailwindcss-animate")],
+  presets: [createPreset()],
+    plugins: [tailwindcss_animate],
     theme: {
     	extend: {
     		borderRadius: {
