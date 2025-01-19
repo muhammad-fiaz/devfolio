@@ -1,10 +1,13 @@
-# [Devfolio]()
+# Devfolio | [docs.muhammadfiaz.com](https://docs.muhammadfiaz.com)
 
 Welcome to the documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.Make Sure to ⭐ the Repo if You liked it
 
-**Note:- Documentations of my Projects are or may not be fully ready yet due to Active Project development but it may soon**
+> This site contains the official documentation for all my open source projects and libraries.
+
+> Note: This documentation is a work in progress. If you can't find what you're looking for, please refer to the [Support & Community](#support--community) section.
 
 ## Making Changes
+
 You can contribute to the documentation in the following ways:
 
 Fixing issues: Check our issue tracker for any open issues and try to fix them.
@@ -16,6 +19,7 @@ Adding new content: If you believe that something is missing or want to add new 
 > Note: If you are adding new content, make sure to update the sidebar as well if it's necessary.
 
 ## Commit Guidelines
+
 Please follow these guidelines for your commits:
 
 - Use descriptive commit messages that explain the changes you made.
@@ -23,6 +27,7 @@ Please follow these guidelines for your commits:
 - Ensure each commit is self-contained and includes only related changes.
 
 Please Check out [Code of Conduct](./CODE_OF_CONDUCT.md) for more details.
+
 ## 🚀 Contributing
 
 ### Step 1: Clone The Repo 💡
@@ -30,7 +35,7 @@ Please Check out [Code of Conduct](./CODE_OF_CONDUCT.md) for more details.
 Fork the repository and then clone it locally by doing -
 
 ```bash
-git clone https://github.com/muhammad-fiaz/muhammad-fiaz.github.io.git
+git clone https://github.com/muhammad-fiaz/devfolio.git
 ```
 
 ### Step 2: Build Your Code 🔨
@@ -47,15 +52,14 @@ git push YOUR_REPO_URL develop
 
 After cloning & setting up the local project you can push the changes to your GitHub fork and make a pull request.
 
+### Step 4: Wait for Approval 🕰
 
-Here's a list of technologies and tools used in this project:
-- [Next.js](https://nextjs.org/): A React framework for building server-side rendered React applications.
-- [Markdown](https://www.markdownguide.org/): A lightweight markup language with plain-text-formatting syntax.
+Maintainers will review your PR and suggest changes if needed and once everything looks good, they will merge your PR.
 
+### Step 5: Celebrate 🎉
+
+Congratulations!! 🎉 you have successfully made contributions to the project.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-
-

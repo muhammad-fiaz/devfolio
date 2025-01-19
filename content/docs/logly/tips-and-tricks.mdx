@@ -1,0 +1,87 @@
+---
+title: Tips and Tricks
+description: Helpful tips and tricks for using Logly effectively.
+---
+
+import { Steps } from 'fumadocs-ui/components/steps';
+
+<Steps>
+
+### Utilize Log Levels Effectively
+
+Use appropriate log levels for different types of messages to make your logs more meaningful:
+
+- **`INFO`**: General information about the application’s state.
+- **`WARN`**: Potential issues or important events that may need attention.
+- **`ERROR`**: Error messages that indicate something went wrong.
+- **`DEBUG`**: Detailed information useful for debugging.
+- **`CRITICAL`**: Severe issues that might cause the application to crash.
+
+### Customize Log File Size and Path
+
+Configure the log file size and path to manage disk usage and organize logs:
+
+```python
+logly.set_default_file_path("path/to/logfile.txt")
+logly.set_default_max_file_size(100)  # Size in MB
+```
+
+This helps in keeping log files manageable and directing them to appropriate locations.
+
+### Use Colors Wisely
+
+Use colors to differentiate log levels and make logs more readable:
+
+```python
+logly.info("Informational message", color=logly.COLOR.GREEN)
+logly.error("Error message", color=logly.COLOR.RED)
+```
+
+Be mindful of color usage, especially if logs are intended for environments where color might not be visible (e.g., plain text logs).
+
+### Disable Color for Production
+
+For production environments, it might be useful to disable colors to avoid issues with log readability:
+
+```python
+logly.color_enabled = False
+```
+
+### Manage Timestamps
+
+Control whether timestamps are included in your logs:
+
+```python
+logly.show_time = True  # Enable timestamps
+logly.show_time = False  # Disable timestamps
+```
+
+This can be useful for both development and production environments depending on your logging needs.
+
+### Handle Log Overflow
+
+Ensure that log files do not become excessively large by setting a maximum file size. This helps in rotating logs and preventing disk space issues:
+
+```python
+logly.set_default_max_file_size(50)  # Size in MB
+```
+
+### Regularly Review Logs
+
+Periodically review logs to monitor application performance and identify any potential issues early.
+
+### Use Log Rotation
+
+For long-running applications, consider implementing log rotation to handle large volumes of logs and maintain performance.
+
+### Keep Logs Secure
+
+Ensure that logs containing sensitive information are securely stored and access is restricted to authorized personnel only.
+
+### Explore Logging Libraries
+
+While Logly is a great tool, don’t hesitate to explore other logging libraries that may offer additional features or integrations suitable for your needs.
+
+</Steps>
+
+This section provides practical tips for effectively using Logly, including best practices for log management, customization, and security.
