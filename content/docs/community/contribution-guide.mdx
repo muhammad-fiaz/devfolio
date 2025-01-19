@@ -1,0 +1,122 @@
+---
+title: Contribution Guidelines
+description: How to contribute to the community documentation.
+---
+
+## Welcome to the Docs Contribution Guide!
+
+We’re excited to have you here and appreciate your interest in contributing to our documentation. This guide will help you get started with editing and improving the docs, making them a valuable resource for everyone.
+
+### Why Contribute?
+
+Open-source work is a team effort, and documentation is no exception. Contributing to docs is a great way for beginners to get involved and for experienced developers to share their expertise. By improving the documentation, you’re helping to build a stronger, more accessible resource for all users.
+
+### How to Contribute
+
+The documentation is stored in our repository. You can contribute by editing files directly on GitHub or cloning the repo to make changes locally.
+
+#### GitHub Workflow
+
+If you’re new to GitHub, check out the [GitHub Open Source Guide](https://guides.github.com/activities/contributing-to-open-source/) to learn how to fork a repository, create a branch, and submit a pull request.
+
+**Note:** The docs code is synced from a private codebase to the public repository. While you won’t be able to preview the docs locally, your changes will appear on the site once your pull request is merged.
+
+### Writing MDX
+
+Our documentation is written in MDX, combining markdown with JSX syntax. This allows embedding React components in the docs. For markdown basics, refer to the [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/).
+
+#### VSCode Setup
+
+To preview MDX files in VSCode, follow these steps:
+
+1. Open the command palette (`⌘ + ⇧ + P` on Mac or `Ctrl + Shift + P` on Windows) and select **Preferences: Open User Settings (JSON)**.
+2. Add this line to your `settings.json`:
+
+    ```json
+    {
+      "files.associations": {
+        "*.mdx": "markdown"
+      }
+    }
+    ```
+
+3. Use the command palette to select **Markdown: Preview File** or **Markdown: Open Preview to the Side**.
+
+#### Recommended Extensions
+
+- **MDX:** Provides IntelliSense and syntax highlighting for MDX.
+- **Prettier:** Formats MDX files on save.
+
+### Review Process
+
+Once you submit a contribution, our team will review your changes, provide feedback, and merge the pull request when it's ready. If you have questions, use the PR comments.
+
+**Tip:** Run `pnpm prettier-fix` to format your code before submitting your PR.
+
+### File Structure
+
+Our docs use file-system routing. Each folder and file in `/docs` represents a route segment for URLs, navigation, and breadcrumbs.
+
+For example, to contribute to "Authentication," place the file in:
+
+```
+/docs/authentication.mdx
+```
+
+### Metadata
+
+Each page begins with a metadata block:
+
+**Required Fields:**
+
+- `title`: The page's `<h1>` title, used for SEO and OG Images.
+- `description`: A brief summary, used in the `<meta>` tag for SEO.
+
+Example metadata:
+
+```mdx
+---
+title: Authentication
+description: How to configure authentication.
+---
+```
+
+**Optional Fields:**
+
+- `nav_title`: Overrides the page's title in navigation.
+- `source`: Includes shared content from another source.
+- `related`: Lists related pages at the document's end.
+
+### Page Types
+
+Docs are categorized as:
+
+- **Conceptual Pages:** Explain ideas or features in detail. Found in `/docs/concepts`.
+- **Reference Pages:** Detail APIs or functions. Found in `/docs/reference`.
+
+### Style Guide
+
+**Voice and Tone:**
+
+- Be clear and concise.
+- Use active voice and avoid jargon.
+- Keep language simple and avoid subjective terms.
+
+**Code Blocks:**
+
+- Include working examples.
+- Use language-specific headers (e.g., `tsx`, `jsx`).
+- Highlight key lines for clarity.
+
+**Icons:**  
+Use provided icons for consistency.
+
+### Custom Components and HTML
+
+We use React components like `<Image />` and `<Check />` in the docs. Avoid raw HTML, except for `<details>`.
+
+### Thank You!
+
+Thank you for contributing to the community docs! Your effort helps us create better resources for everyone. If you have any questions or need help, feel free to reach out.
+
+Happy documenting!

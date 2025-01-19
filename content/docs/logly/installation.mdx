@@ -1,0 +1,38 @@
+---
+title: Installation
+description: How to install Logly.
+---
+import {Steps} from "fumadocs-ui/components/steps";
+import { Callout } from 'fumadocs-ui/components/callout';
+
+<Steps>
+
+### Install Logly
+
+To install Logly, use pip to add it to your project:
+
+```bash
+pip install logly
+```
+
+### Initialize Logly
+
+After installing, initialize Logly in your project:
+
+```python
+# Example initialization in your Python project
+from logly import Logly
+
+logly = Logly()
+logly.start_logging()  # Start logging with default settings
+```
+
+<Callout type="warning" twClass="mt-4">
+    Ensure you have the appropriate permissions to write log files in your project directory.
+</Callout>
+
+### Issue Reporting
+
+If you encounter any issues or errors during installation or usage, please report them on the [Logly GitHub Issues page](https://github.com/muhammad-fiaz/logly/issues). Include details about the error message and your environment setup to help us assist you more effectively.
+
+</Steps>

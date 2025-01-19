@@ -1,0 +1,136 @@
+---
+title: Usages
+description: How to use Logly for logging in your Python application.
+---
+import {Steps} from "fumadocs-ui/components/steps";
+
+
+<Steps>
+
+### Import Logly
+
+First, import the `Logly` class from the `logly` module:
+
+```python
+from logly import Logly
+```
+
+### Create a Logly Instance
+
+Create an instance of `Logly`:
+
+```python
+logly = Logly()
+```
+
+### Start Logging
+
+Initialize logging and start logging messages:
+
+```python
+logly.start_logging()
+```
+
+### Log Messages
+
+You can log messages with different levels and colors:
+
+```python
+logly.info("This is an info message")
+logly.warn("This is a warning message", color=logly.COLOR.YELLOW)
+logly.error("This is an error message", color=logly.COLOR.RED)
+logly.debug("This is a debug message", color=logly.COLOR.BLUE)
+logly.critical("This is a critical message", color=logly.COLOR.CRITICAL)
+logly.fatal("This is a fatal message", color=logly.COLOR.CRITICAL)
+logly.trace("This is a trace message", color=logly.COLOR.BLUE)
+```
+
+### Stop Logging
+
+To stop logging and prevent further messages from being saved:
+
+```python
+logly.stop_logging()
+```
+
+### Log More Messages
+
+You can log additional messages after stopping logging, but they won’t be saved to the file:
+
+```python
+logly.info("This message will be displayed but not saved to file")
+```
+
+### Custom File Path and Size
+
+Set a custom file path and max file size for logging:
+
+```python
+logly.set_default_file_path("custom_log.txt")
+logly.set_default_max_file_size(50)  # Size in MB
+```
+
+### Disable Color
+
+If you want to disable color output for logging:
+
+```python
+logly.color_enabled = False
+logly.info("This message will not use color")
+```
+
+### Enable/Disable Timestamp
+
+You can enable or disable timestamps in log messages:
+
+```python
+logly.show_time = False  # Disable timestamps
+logly.info("This message will not include a timestamp")
+
+logly.show_time = True   # Enable timestamps
+logly.info("This message will include a timestamp")
+```
+
+### Access Color Constants
+
+Use predefined color constants for log messages:
+
+```python
+logly.info("Message with red color", color=logly.COLOR.RED)
+```
+
+### Display Logged Messages
+
+To display all logged messages:
+
+```python
+print("Logged Messages:")
+for message in logly.logged_messages:
+    print(message)
+```
+
+### Example Usage
+
+Here’s a complete example of using Logly in a script:
+
+```python
+from logly import Logly
+
+logly = Logly()
+logly.start_logging()
+
+logly.info("Application started")
+logly.warn("This is a warning")
+logly.error("An error occurred", color=logly.COLOR.RED)
+
+logly.stop_logging()
+
+logly.info("This message won't be logged to file")
+
+logly.start_logging()
+logly.info("Logging resumed")
+```
+
+</Steps>
+
+These Steps will help you get started with logging in your Python application using Logly. For more advanced features and customization options, refer to the [Logly documentation](https://fiaz.dev/docs/logly).
