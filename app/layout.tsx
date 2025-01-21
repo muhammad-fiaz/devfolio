@@ -6,6 +6,8 @@ import 'fumadocs-twoslash/twoslash.css';
 import { source } from '@/lib/source';
 import { notFound } from 'next/navigation';
 import { siteConfig } from '@/site.config';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 
 export async function generateMetadata(props: {
   params: Promise<{ slug?: string[] }>;
@@ -27,7 +29,11 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang='en' className={inter.className} suppressHydrationWarning>
       <body className='flex min-h-screen flex-col'>
-        <RootProvider>{children}</RootProvider>
+        <RootProvider>
+          {children}
+        </RootProvider>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
