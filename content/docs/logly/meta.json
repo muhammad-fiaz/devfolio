@@ -1,0 +1,15 @@
+{
+  "title": "Logly",
+  "description": "The Logging Utility",
+  "icon": "Building2",
+  "root": true,
+  "pages": [
+    "---Introduction---",
+    "index",
+    "---Setup---",
+    "installation",
+    "usages",
+    "---Other---",
+    "tips-and-tricks"
+  ]
+}

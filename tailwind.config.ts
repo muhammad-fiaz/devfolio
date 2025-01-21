@@ -1,6 +1,6 @@
 import { Config } from 'tailwindcss';
 import { createPreset } from 'fumadocs-ui/tailwind-plugin';
-
+import { heroui } from '@heroui/react';
 import tailwindcss_animate from 'tailwindcss-animate';
 
 const tailwindConfig: Config = {
@@ -12,9 +12,10 @@ const tailwindConfig: Config = {
     './mdx-components.{ts,tsx}',
     './node_modules/fumadocs-ui/dist/**/*.js',
     './node_modules/fumadocs-openapi/dist/**/*.js',
+    './node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   presets: [createPreset()],
-  plugins: [tailwindcss_animate],
+  plugins: [tailwindcss_animate, heroui()],
   theme: {
     extend: {
       borderRadius: {
