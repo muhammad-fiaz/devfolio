@@ -1,0 +1,18 @@
+{
+  "title": "Getting Started",
+  "description": "A Brief Introduction on how to get started!",
+  "icon": "Building2",
+  "root": true,
+  "pages": [
+    "---Introduction---",
+    "index",
+    "overview",
+    "---Community---",
+    "community-guidelines",
+    "contributing-guidelines",
+    "---Projects---",
+    "...",
+    "---Others---",
+    "changelog"
+  ]
+}
