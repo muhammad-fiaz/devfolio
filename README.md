@@ -39,7 +39,6 @@ Here the Sample Performance of the devfolio measured by [Lighthouse](https://dev
 
 ## Table of Contents
 
-- [Release Notes](#release-notes)
 - [Getting Started](#getting-started)
 - [Available Scripts](#available-scripts)
     - [`npm run dev`](#npm-run-dev)
