@@ -8,19 +8,14 @@
 ![Stability](https://img.shields.io/badge/stability-good-blue.svg) ![MIT License](https://img.shields.io/badge/license-MIT-green)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/muhammad-fiaz/devfolio)
 [![Build Passing](https://badge.buildkite.com/sample.svg?status=passing)](https://github.com/muhammad-fiaz/devfolio)
-[![CodeQL](https://github.com/muhammad-fiaz/devfolio/actions/workflows/codeql.yml/badge.svg)](https://github.com/muhammad-fiaz/devfolio/actions/workflows/codeql.yml)
-[![Dependency Review](https://github.com/muhammad-fiaz/devfolio/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/muhammad-fiaz/devfolio/actions/workflows/dependency-review.yml)
+[![CodeQL](https://github.com/muhammad-fiaz/devfolio/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/muhammad-fiaz/devfolio/actions/workflows/github-code-scanning/codeql)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/muhammad-fiaz/devfolio)
 [![Maintainer](https://img.shields.io/badge/maintainer-muhammad--fiaz-blue)](https://GitHub.com/muhammad-fiaz)
-
-[![Latest Release](https://img.shields.io/github/release/muhammad-fiaz/devfolio.svg)](https://github.com/muhammad-fiaz/devfolio/releases/latest)
-[![Current Version](https://img.shields.io/badge/Current%20Version-v2.0.1-blue.svg)](https://github.com/muhammad-fiaz/devfolio/releases/tag/v2.0.1)
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 [![GitHub visitors](https://img.shields.io/github/contributors/muhammad-fiaz/devfolio.svg)](https://github.com/muhammad-fiaz/devfolio/graphs/contributors)
-![Popularity Views](https://komarev.com/ghpvc/?username=muhammad-fiaz&style=flat&label=Popularity)
 ![GitHub stars](https://img.shields.io/github/stars/muhammad-fiaz/devfolio.svg?style=social&label=Stars)
 
 [![Follow me on GitHub](https://img.shields.io/github/followers/muhammad-fiaz?label=Follow&style=social)](https://github.com/muhammad-fiaz)
@@ -109,6 +104,7 @@ and also [Google Fonts](https://fonts.google.com/icons).
 
 ## More Information
 
+This documentation is built with [Next.js](https://nextjs.org/) and [MDX](https://mdxjs.com/) powered by [fumadocs](https://fumadocs.vercel.app/).
 Please Read the [Next.js Documentation](https://nextjs.org/docs/getting-started).
 Also, Read the [React.js Documentation](https://reactjs.org/docs/getting-started.html).
 
@@ -129,12 +125,6 @@ Also, Read the [React.js Documentation](https://reactjs.org/docs/getting-started
   </a>
 </div>
 <p>Thank you for your support! 🙏</p>
-
-</div>
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=muhammad-fiaz/devfolio&type=Date)](https://github.com/muhammad-fiaz/devfolio/)
 
 </div>
 
