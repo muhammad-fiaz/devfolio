@@ -142,7 +142,6 @@ And make sure to follow the [project guidelines](CODE_OF_CONDUCT.md)
 
 If you'd like to contribute to this project, please check out the [contributing guidelines](CONTRIBUTING.md), fork the repository, and submit a pull request. Every contribution is welcome and appreciated!
 
-A big thank you to everyone who contributed to this project! 💖
 
 [![devfolio contributors](https://contrib.rocks/image?repo=muhammad-fiaz/devfolio&max=2000)](https://github.com/muhammad-fiaz/devfolio/graphs/contributors)
 
