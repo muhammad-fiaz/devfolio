@@ -27,7 +27,7 @@
 
 Welcome to the official documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.Make Sure to ⭐ the Repo if You liked it
 
-> Note: This documentation is a work in progress. If you can't find what you're looking for, please refer to the [Support & Community](#support--community) section.
+> Note: This documentation is a work in progress. If you can't find what you're looking for, please refer to the [Contributing](#contributing) section.
 
 **Support this non-profit open-source project with a little [sponsor ❤️](https://github.com/sponsors/muhammad-fiaz) or [Buy Me a Coffee ☕](https://buymecoffee.com/muhammadfiaz).**
 
