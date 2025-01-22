@@ -21,7 +21,7 @@ export const siteConfig: SiteConfig = {
   description:
     'This site serves as a centralized resource for users to explore technical guides, setup instructions, usage examples, and contributions to my open-source projects.',
   author: 'Muhammad Fiaz', // Author name
-  baseUrl: 'https://docs.muhammadfiaz.com', // Base URL for your site
+  baseUrl: 'https://projects.muhammadfiaz.com', // Base URL for your site
   links: {
     // Fixed the syntax here
     github: {

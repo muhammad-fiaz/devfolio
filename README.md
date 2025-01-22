@@ -1,65 +1,193 @@
-# Devfolio | [docs.muhammadfiaz.com](https://docs.muhammadfiaz.com)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6febbc17-5bd0-4e85-83a1-99d6bb153f84"  alt="Muhammad Fiaz's devfolio"/>
+</p>
 
-Welcome to the documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.Make Sure to ⭐ the Repo if You liked it
+<div align="center">
+  <h1><a href="https://projects.muhammadfiaz.com/">projects.muhammadfiaz.com</a> | devfolio</h1>
 
-> This site contains the official documentation for all my open source projects and libraries.
+![Stability](https://img.shields.io/badge/stability-good-blue.svg) ![MIT License](https://img.shields.io/badge/license-MIT-green)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/muhammad-fiaz/devfolio)
+[![Build Passing](https://badge.buildkite.com/sample.svg?status=passing)](https://github.com/muhammad-fiaz/devfolio)
+[![Continuous Integration](https://github.com/muhammad-fiaz/devfolio/actions/workflows/prettier.yml/badge.svg)](https://github.com/muhammad-fiaz/devfolio/actions/workflows/prettier.yml)
+[![CodeQL](https://github.com/muhammad-fiaz/devfolio/actions/workflows/codeql.yml/badge.svg)](https://github.com/muhammad-fiaz/devfolio/actions/workflows/codeql.yml)
+[![Dependency Review](https://github.com/muhammad-fiaz/devfolio/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/muhammad-fiaz/devfolio/actions/workflows/dependency-review.yml)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/muhammad-fiaz/devfolio)
+[![Maintainer](https://img.shields.io/badge/maintainer-muhammad--fiaz-blue)](https://GitHub.com/muhammad-fiaz)
+
+[![Latest Release](https://img.shields.io/github/release/muhammad-fiaz/devfolio.svg)](https://github.com/muhammad-fiaz/devfolio/releases/latest)
+[![Current Version](https://img.shields.io/badge/Current%20Version-v2.0.1-blue.svg)](https://github.com/muhammad-fiaz/devfolio/releases/tag/v2.0.1)
+
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+[![GitHub visitors](https://img.shields.io/github/contributors/muhammad-fiaz/devfolio.svg)](https://github.com/muhammad-fiaz/devfolio/graphs/contributors)
+![Popularity Views](https://komarev.com/ghpvc/?username=muhammad-fiaz&style=flat&label=Popularity)
+![GitHub stars](https://img.shields.io/github/stars/muhammad-fiaz/devfolio.svg?style=social&label=Stars)
+
+[![Follow me on GitHub](https://img.shields.io/github/followers/muhammad-fiaz?label=Follow&style=social)](https://github.com/muhammad-fiaz)
+[![Discord](https://img.shields.io/badge/Discord-Join%20us-7289DA?logo=discord&style=flat-square)](https://discord.gg/mXMhy2EX)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F6MME1W)
+
+</div>
+
+Welcome to the official documentation website for my projects! We value your contributions to make our documentation more comprehensive and user-friendly.Make Sure to ⭐ the Repo if You liked it
 
 > Note: This documentation is a work in progress. If you can't find what you're looking for, please refer to the [Support & Community](#support--community) section.
 
-## Making Changes
+**Support this non-profit open-source project with a little [sponsor ❤️](https://github.com/sponsors/muhammad-fiaz) or [Buy Me a Coffee ☕](https://buymecoffee.com/muhammadfiaz).**
 
-You can contribute to the documentation in the following ways:
+Here the Sample Performance of the devfolio measured by [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools.
 
-Fixing issues: Check our issue tracker for any open issues and try to fix them.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6633644d-f01e-4a99-bc56-42aa452b95d4" alt="performance" />
+</p>
 
-Improving existing content: Feel free to enhance the existing documentation, fix typos, or clarify instructions.
+## Table of Contents
 
-Adding new content: If you believe that something is missing or want to add new sections, create new pages, or contribute examples, go ahead and do so.
+- [Release Notes](#release-notes)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+    - [`npm run dev`](#npm-run-dev)
+    - [`npm run build`](#npm-run-build)
+    - [`npm start`](#npm-start)
+    - [`npm run lint`](#npm-run-lint)
+- [Icons Information](#icons-information)
+- [Vector Graphics Animations](#vector-graphics-animations)
+- [More Information](#more-information)
+- [Support Me](#support-me)
+- [License](#license)
+- [Contributing](#contributing)
+- - [Want to Contribute?](#want-to-contribute)
+- [Deploy on Vercel](#deploy-on-vercel)
+- [Stay Connected!](#stay-connected)
 
-> Note: If you are adding new content, make sure to update the sidebar as well if it's necessary.
 
-## Commit Guidelines
+## Getting Started
 
-Please follow these guidelines for your commits:
+To run the project locally, follow these steps:
 
-- Use descriptive commit messages that explain the changes you made.
-- If your commit addresses an issue, reference it using the format: "Fixes #issue-number".
-- Ensure each commit is self-contained and includes only related changes.
+1. Clone the repository: `git clone https://github.com/muhammad-fiaz/devfolio.git`
+2. Navigate to the project directory: `cd devfolio`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-Please Check out [Code of Conduct](./CODE_OF_CONDUCT.md) for more details.
+## Available Scripts
 
-## 🚀 Contributing
+In the project directory, you can run the following scripts:
 
-### Step 1: Clone The Repo 💡
+### `npm run dev`
 
-Fork the repository and then clone it locally by doing -
+Runs the app in development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-```bash
-git clone https://github.com/muhammad-fiaz/devfolio.git
-```
+### `npm run build`
 
-### Step 2: Build Your Code 🔨
+Builds the app for production to the `.next` folder using default Next.js build config.\
+It correctly bundles Next.js and optimizes the build for the best performance.
 
-Start your magic by modifying the code and making changes of your own. Then push the commit using -
+### `npm start`
 
-```bash
-git add .
-git commit -m "<your commit message here>"
-git push YOUR_REPO_URL develop
-```
+Starts the production server to serve the built app.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Step 3: Create a new pull request 🔃
+### `npm run lint`
 
-After cloning & setting up the local project you can push the changes to your GitHub fork and make a pull request.
+Runs the [Next.js ESLint](https://nextjs.org/docs/basic-features/eslint) linter.\
+It will show lint errors in the console.
 
-### Step 4: Wait for Approval 🕰
+## Icons Information
 
-Maintainers will review your PR and suggest changes if needed and once everything looks good, they will merge your PR.
+💖 Icons are from [Font Awesome](https://fontawesome.com/), [Devicon](https://devicon.dev/),
+and also [Google Fonts](https://fonts.google.com/icons).
 
-### Step 5: Celebrate 🎉
+## Vector Graphics Animations
 
-Congratulations!! 🎉 you have successfully made contributions to the project.
+✨ Vector Graphics Animations are from [LottieFiles](https://lottiefiles.com/).
+
+## More Information
+
+Please Read the [Next.js Documentation](https://nextjs.org/docs/getting-started).
+Also, Read the [React.js Documentation](https://reactjs.org/docs/getting-started.html).
+
+## Support Me
+
+<div align="center">
+
+<h3>💖 Show Your Support and Help My Non-Profit Open-Source Project! 💰</h3>
+
+<p>As an open-source enthusiast, I'm dedicated to creating free tools and resources for the community. Your contribution, no matter how small, helps me keep this project going and make it even better!</p>
+
+<div>
+  <a href="https://github.com/sponsors/muhammad-fiaz" target="_blank">
+    <img src="https://img.shields.io/badge/Sponsor-%231EAEDB.svg?&style=for-the-badge&logo=GitHub-Sponsors&logoColor=white" alt="Sponsor Muhammad Fiaz" />
+  </a>
+  <a href="https://buymecoffee.com/muhammadfiaz" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%23FF813F.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee" />
+  </a>
+</div>
+<p>Thank you for your support! 🙏</p>
+
+</div>
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=muhammad-fiaz/devfolio&type=Date)](https://github.com/muhammad-fiaz/devfolio/)
+
+</div>
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/muhammad-fiaz/devfolio/blob/main/LICENSE.md) file for details.
+
+## Contributing
+
+Contributions are welcome!
+
+If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+And make sure to follow the [project guidelines](CODE_OF_CONDUCT.md)
+
+### Want to contribute?
+
+If you'd like to contribute to this project, please check out the [contributing guidelines](CONTRIBUTING.md), fork the repository, and submit a pull request. Every contribution is welcome and appreciated!
+
+A big thank you to everyone who contributed to this project! 💖
+
+[![devfolio contributors](https://contrib.rocks/image?repo=muhammad-fiaz/devfolio&max=2000)](https://github.com/muhammad-fiaz/devfolio/graphs/contributors)
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+**This Project Also Supports [Vercel](https://vercel.com/dashboard) and comes with [(Vercel Analytics pre-enabled in it)](https://vercel.com/analytics) you can Host it there if you like it**
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+✅ See [latest release](https://github.com/muhammad-fiaz/devfolio/releases/latest) version for production use!
+
+## Stay Connected!
+
+Thank you for checking out [my devfolio on GitHub](https://github.com/muhammad-fiaz/devfolio)! We're constantly working to improve and enhance the project. To ensure you're always up-to-date with the latest changes, we recommend following these steps:
+
+1. **Watch This Repository:** Click the ⭐️ "Watch" button at the top right of the page to [receive notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/watching-and-unwatching-repositories) for any new releases, issues, or discussions.
+
+2. **Star the Repository:** If you find my devfolio useful or interesting, consider giving it a [star](https://github.com/muhammad-fiaz/devfolio/stargazers). This helps us gain visibility and shows your appreciation for the project.
+
+3. **Fork for Contributions:** If you're interested in contributing to my devfolio, feel free to [fork](https://github.com/muhammad-fiaz/devfolio/fork) the repository, make changes, and submit a pull request. We welcome contributions from the community!
+
+4. **Join the Discussion:** Check out the [Discussions](https://github.com/muhammad-fiaz/devfolio/discussions) tab to join conversations, ask questions, and share your ideas with other users and contributors.
+
+5. **Stay Updated:** Periodically visit the repository's ["Releases" section](https://github.com/muhammad-fiaz/devfolio/releases) to find detailed information about each new release, including new features, bug fixes, and improvements.
+
+By following these steps, you'll be sure to stay connected with the latest developments and updates. I appreciate your interest in my devfolio and can't wait to see how it benefits you!
+
+If you have any questions or feedback, please don't hesitate to reach out.
+
+Don't forget to Stay tuned for updates and new features!
+
+  <img   align="right" src="https://github.com/muhammad-fiaz/muhammad-fiaz/assets/75434191/ed52c517-611e-4647-9b35-acd001a287b9" width="20%" />
+
+### Happy Coding! 😊
