@@ -12,6 +12,10 @@
     "format:fix": "prettier --write --ignore-path .gitignore .",
     "build:docs": "node ./scripts/generate-docs.mjs"
   },
+  "optionalDependencies": {
+    "@tailwindcss/oxide-linux-x64-gnu": "^4.0.1",
+    "lightningcss-linux-x64-gnu": "^1.29.1"
+  },
   "dependencies": {
     "@fumadocs/cli": "^0.0.7",
     "@scalar/api-client-react": "^1.1.22",
