@@ -41,10 +41,10 @@ Here the Sample Performance of the devfolio measured by [Lighthouse](https://dev
 
 - [Getting Started](#getting-started)
 - [Available Scripts](#available-scripts)
-    - [`npm run dev`](#npm-run-dev)
-    - [`npm run build`](#npm-run-build)
-    - [`npm start`](#npm-start)
-    - [`npm run lint`](#npm-run-lint)
+  - [`npm run dev`](#npm-run-dev)
+  - [`npm run build`](#npm-run-build)
+  - [`npm start`](#npm-start)
+  - [`npm run lint`](#npm-run-lint)
 - [Icons Information](#icons-information)
 - [Vector Graphics Animations](#vector-graphics-animations)
 - [More Information](#more-information)
@@ -54,7 +54,6 @@ Here the Sample Performance of the devfolio measured by [Lighthouse](https://dev
 - - [Want to Contribute?](#want-to-contribute)
 - [Deploy on Vercel](#deploy-on-vercel)
 - [Stay Connected!](#stay-connected)
-
 
 ## Getting Started
 
@@ -141,7 +140,6 @@ And make sure to follow the [project guidelines](CODE_OF_CONDUCT.md)
 ### Want to contribute?
 
 If you'd like to contribute to this project, please check out the [contributing guidelines](CONTRIBUTING.md), fork the repository, and submit a pull request. Every contribution is welcome and appreciated!
-
 
 [![devfolio contributors](https://contrib.rocks/image?repo=muhammad-fiaz/devfolio&max=2000)](https://github.com/muhammad-fiaz/devfolio/graphs/contributors)
 

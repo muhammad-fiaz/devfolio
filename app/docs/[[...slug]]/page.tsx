@@ -1,21 +1,15 @@
 import { source } from '@/lib/source';
-import {
-  DocsPage,
-  DocsBody,
-  DocsTitle,
-  DocsDescription,
-} from 'fumadocs-ui/page';
+import { DocsPage, DocsBody, DocsTitle, DocsDescription } from 'fumadocs-ui/page';
 import { notFound } from 'next/navigation';
 import defaultMdxComponents from 'fumadocs-ui/mdx';
-import { metadataImage } from '@/lib/metadata';
 import { Popup, PopupContent, PopupTrigger } from 'fumadocs-twoslash/ui';
 import { openapi } from '@/lib/source';
 import { getGithubLastEdit } from 'fumadocs-core/server';
 import { siteConfig } from '@/site.config';
+import { createTypeTable } from 'fumadocs-typescript/ui';
+import React from 'react';
 
-export default async function Page(props: {
-  params: Promise<{ slug?: string[] }>;
-}) {
+export default async function Page(props: { params: Promise<{ slug?: string[] }> }) {
   const params = await props.params;
   const page = source.getPage(params.slug);
   if (!page) notFound();
@@ -30,10 +24,9 @@ export default async function Page(props: {
           owner: siteConfig.links.github.username,
           repo: 'devfolio',
           path: `content/docs/${page.file.path}`,
-          token: process.env.GIT_TOKEN
-            ? `Bearer ${process.env.GIT_TOKEN}`
-            : undefined,
+          token: process.env.GIT_TOKEN ? `Bearer ${process.env.GIT_TOKEN}` : undefined,
         });
+  const { AutoTypeTable } = createTypeTable();
 
   return (
     <DocsPage
@@ -45,9 +38,7 @@ export default async function Page(props: {
         sha: 'main',
         path: `content/docs/${page.file.path}`,
       }}
-      lastUpdate={
-        lastModified ? new Date(lastModified).toLocaleString() : undefined
-      } // Corrected this part
+      lastUpdate={lastModified ? new Date(lastModified).toLocaleString() : undefined}
     >
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
@@ -59,6 +50,7 @@ export default async function Page(props: {
             PopupContent,
             PopupTrigger,
             APIPage: openapi.APIPage,
+            AutoTypeTable,
           }}
         />
       </DocsBody>
@@ -70,18 +62,13 @@ export async function generateStaticParams() {
   return source.generateParams();
 }
 
-export async function generateMetadata(props: {
-  params: Promise<{ slug?: string[] }>;
-}) {
+export async function generateMetadata(props: { params: Promise<{ slug?: string[] }> }) {
   const params = await props.params;
   const page = source.getPage(params.slug);
   if (!page) notFound();
 
-  return metadataImage.withImage(page.slugs, {
+  return {
     title: page.data.title,
     description: page.data.description,
-    openGraph: {
-      url: `/docs/${page.slugs.join('/')}`,
-    },
-  });
+  };
 }
