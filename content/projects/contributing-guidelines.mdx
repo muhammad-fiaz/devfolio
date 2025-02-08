@@ -51,16 +51,16 @@ To preview MDX files in VSCode, follow these steps:
 
 Once you submit a contribution, our team will review your changes, provide feedback, and merge the pull request when it's ready. If you have questions, use the PR comments.
 
-**Tip:** Run `pnpm prettier-fix` to format your code before submitting your PR.
+**Tip:** Run `bun format:fix` to format your code before submitting your PR.
 
 ### File Structure
 
-Our docs use file-system routing. Each folder and file in `/docs` represents a route segment for URLs, navigation, and breadcrumbs.
+Our docs use file-system routing. Each folder and file in `/` represents a route segment for URLs, navigation, and breadcrumbs.
 
 For example, to contribute to "Authentication," place the file in:
 
 ```
-/docs/authentication.mdx
+content/projects/authentication.mdx
 ```
 
 ### Metadata
@@ -86,34 +86,6 @@ description: How to configure authentication.
 - `nav_title`: Overrides the page's title in navigation.
 - `source`: Includes shared content from another source.
 - `related`: Lists related pages at the document's end.
-
-### Page Types
-
-Docs are categorized as:
-
-- **Conceptual Pages:** Explain ideas or features in detail. Found in `/docs/concepts`.
-- **Reference Pages:** Detail APIs or functions. Found in `/docs/reference`.
-
-### Style Guide
-
-**Voice and Tone:**
-
-- Be clear and concise.
-- Use active voice and avoid jargon.
-- Keep language simple and avoid subjective terms.
-
-**Code Blocks:**
-
-- Include working examples.
-- Use language-specific headers (e.g., `tsx`, `jsx`).
-- Highlight key lines for clarity.
-
-**Icons:**  
-Use provided icons for consistency.
-
-### Custom Components and HTML
-
-We use React components like `<Image />` and `<Check />` in the docs. Avoid raw HTML, except for `<details>`.
 
 ### Thank You!
 

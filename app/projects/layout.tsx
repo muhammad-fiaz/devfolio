@@ -15,7 +15,7 @@ const sidebarTabs = [
   },
   {
     text: 'Logly',
-    url: '/projects/logly',
+    url: 'content/projects/logly/v0.0.7',
     title: 'Logly',
     description: 'An logging utility',
   },
