@@ -11,6 +11,7 @@ export interface SiteConfig {
       username: string;
       url: string;
     };
+    discord?: string;
     github_org: string;
   };
 }
