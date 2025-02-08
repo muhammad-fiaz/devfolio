@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-  <h1><a href="https://projects.muhammadfiaz.com/">projects.muhammadfiaz.com</a> | devfolio</h1>
+  <h1><a href="https://docs.muhammadfiaz.com/">docs.muhammadfiaz.com</a> | devfolio</h1>
 
 ![Stability](https://img.shields.io/badge/stability-good-blue.svg) ![MIT License](https://img.shields.io/badge/license-MIT-green)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/muhammad-fiaz/devfolio)

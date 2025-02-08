@@ -8,7 +8,7 @@ export default function HomePage() {
       <p className="mb-8 text-lg">
         Your one-stop destination for quick and seamless access to our documentation and resources.
       </p>
-      <Link href="/docs">
+      <Link href="/projects">
         <button>Get Started</button>
       </Link>
     </main>
