@@ -1,4 +1,4 @@
-import {defineConfig, defineDocs} from 'fumadocs-mdx/config';
+import { defineConfig, defineDocs } from 'fumadocs-mdx/config';
 import { transformerTwoslash } from 'fumadocs-twoslash';
 import { rehypeCodeDefaultOptions } from 'fumadocs-core/mdx-plugins';
 
@@ -12,10 +12,7 @@ export default defineConfig({
         light: 'github-light',
         dark: 'github-dark',
       },
-      transformers: [
-        ...(rehypeCodeDefaultOptions.transformers ?? []),
-        transformerTwoslash(),
-      ],
+      transformers: [...(rehypeCodeDefaultOptions.transformers ?? []), transformerTwoslash()],
     },
   },
 });
