@@ -8,14 +8,14 @@ import React from 'react';
 // Define the sidebar tabs and dynamic transformation logic
 const sidebarTabs = [
   {
-    text: 'Community', // Add the required 'text' property
-    url: '/docs',
-    title: 'Community',
-    description: 'Community Documentations',
+    text: 'Projects',
+    url: '/projects',
+    title: 'Projects',
+    description: 'Projects Documentations',
   },
   {
-    text: 'Logly', // Add the required 'text' property
-    url: '/docs/logly',
+    text: 'Logly',
+    url: '/projects/logly',
     title: 'Logly',
     description: 'An logging utility',
   },
