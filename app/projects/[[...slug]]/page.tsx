@@ -23,7 +23,7 @@ export default async function Page(props: { params: Promise<{ slug?: string[] }>
       : await getGithubLastEdit({
           owner: siteConfig.links.github.username,
           repo: 'devfolio',
-          path: `content/docs/${page.file.path}`,
+          path: `content/projects/${page.file.path}`,
           token: process.env.GIT_TOKEN ? `Bearer ${process.env.GIT_TOKEN}` : undefined,
         });
   const { AutoTypeTable } = createTypeTable();
@@ -36,7 +36,7 @@ export default async function Page(props: { params: Promise<{ slug?: string[] }>
         owner: siteConfig.links.github.username,
         repo: 'devfolio',
         sha: 'main',
-        path: `content/docs/${page.file.path}`,
+        path: `content/projects/${page.file.path}`,
       }}
       lastUpdate={lastModified ? new Date(lastModified).toLocaleString() : undefined}
     >

@@ -6,7 +6,7 @@ import { siteConfig } from '@/site.config';
  *
  * you can configure layouts individually from:
  * Home Layout: app/(home)/layout.tsx
- * Docs Layout: app/docs/layout.tsx
+ * Docs Layout: app/projects/layout.tsx
  */
 export const baseOptions: BaseLayoutProps = {
   nav: {
