@@ -17,14 +17,13 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Fiaz Technologies', // The name of your site
-  shortName: 'Docs', // The short name of your site
+  name: 'Fiaz Technologies',
+  shortName: 'Docs',
   description:
     'This site serves as a centralized resource for users to explore technical guides, setup instructions, usage examples, and contributions to my open-source projects.',
-  author: 'Muhammad Fiaz', // Author name
-  baseUrl: 'https://docs.muhammadfiaz.com', // Base URL for your site
+  author: 'Muhammad Fiaz',
+  baseUrl: 'https://docs.muhammadfiaz.com',
   links: {
-    // Fixed the syntax here
     github: {
       username: 'muhammad-fiaz',
       url: 'https://github.com/muhammad-fiaz',

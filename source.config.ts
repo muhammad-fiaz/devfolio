@@ -12,7 +12,10 @@ export default defineConfig({
         light: 'github-light',
         dark: 'github-dark',
       },
-      transformers: [...(rehypeCodeDefaultOptions.transformers ?? []), transformerTwoslash()],
+      transformers: [
+        ...(rehypeCodeDefaultOptions.transformers ?? []),
+        transformerTwoslash(),
+      ],
     },
   },
 });
