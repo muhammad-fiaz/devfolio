@@ -1,9 +1,5 @@
 {
   "title": "Usage",
   "description": "A Brief Introduction on how to use PyWebflow!",
-  "pages": [
-"integration",
-"add_node",
-"add_edge"
-  ]
+  "pages": ["integration", "add_node", "add_edge"]
 }

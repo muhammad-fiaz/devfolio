@@ -7,58 +7,61 @@ import { Steps } from 'fumadocs-ui/components/steps';
 
 <Steps>
 
-  ## Adding a Node
+## Adding a Node
 
-  The `add_node` method in PyWebflow allows you to create and add a new node to your graph.
+The `add_node` method in PyWebflow allows you to create and add a new node to your graph.
 
-  ### **Usage**
+### **Usage**
 
-  First, import the WebFlow library:
+First, import the WebFlow library:
 
-  ```python
-  import webflow as wf
-  ```
+```python
+import webflow as wf
+```
 
 Then, use the `add_node` method as follows:
 
-  ```python
-  wf.add_node(node_id, label, position, **kwargs)
-  ```
+```python
+wf.add_node(node_id, label, position, **kwargs)
+```
 
 ### **Parameters**
-| Parameter            | Type                     | Description |
-  |----------------------|-------------------------|-------------|
-| `node_id`           | `str`                    | A unique identifier for the node. |
-| `label`             | `str`                    | A human-readable name for the node. |
-| `position`          | `Dict[str, float]`       | Defines the `x` and `y` coordinates of the node. |
-| `dragHandle`        | `Optional[bool]`         | If `True`, the node can be dragged using a handle. |
-| `type`              | `Optional[str]`          | Defines the type of node (e.g., `"default"`, `"custom"`). |
-| `selected`          | `Optional[bool]`         | If `True`, the node starts as selected. |
-| `isConnectable`     | `Optional[bool]`         | If `True`, the node can be connected to edges. |
-| `zIndex`            | `Optional[int]`          | The z-index of the node, affecting stacking order. |
-| `positionAbsoluteX` | `Optional[float]`        | Absolute X position of the node in the graph. |
-| `positionAbsoluteY` | `Optional[float]`        | Absolute Y position of the node in the graph. |
-| `dragging`          | `Optional[bool]`         | If `True`, the node is currently being dragged. |
-| `targetPosition`    | `Optional[str]`          | Defines where edges should connect to the node (`"top"`, `"bottom"`, `"left"`, `"right"`). |
-| `sourcePosition`    | `Optional[str]`          | Defines where edges originate from the node (`"top"`, `"bottom"`, `"left"`, `"right"`). |
+
+| Parameter           | Type               | Description                                                                                |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------------ |
+| `node_id`           | `str`              | A unique identifier for the node.                                                          |
+| `label`             | `str`              | A human-readable name for the node.                                                        |
+| `position`          | `Dict[str, float]` | Defines the `x` and `y` coordinates of the node.                                           |
+| `dragHandle`        | `Optional[bool]`   | If `True`, the node can be dragged using a handle.                                         |
+| `type`              | `Optional[str]`    | Defines the type of node (e.g., `"default"`, `"custom"`).                                  |
+| `selected`          | `Optional[bool]`   | If `True`, the node starts as selected.                                                    |
+| `isConnectable`     | `Optional[bool]`   | If `True`, the node can be connected to edges.                                             |
+| `zIndex`            | `Optional[int]`    | The z-index of the node, affecting stacking order.                                         |
+| `positionAbsoluteX` | `Optional[float]`  | Absolute X position of the node in the graph.                                              |
+| `positionAbsoluteY` | `Optional[float]`  | Absolute Y position of the node in the graph.                                              |
+| `dragging`          | `Optional[bool]`   | If `True`, the node is currently being dragged.                                            |
+| `targetPosition`    | `Optional[str]`    | Defines where edges should connect to the node (`"top"`, `"bottom"`, `"left"`, `"right"`). |
+| `sourcePosition`    | `Optional[str]`    | Defines where edges originate from the node (`"top"`, `"bottom"`, `"left"`, `"right"`).    |
 
 ### **Example**
-  ```python
-  wf.add_node(
-      node_id="node1",
-      label="Start Node",
-      position={"x": 50, "y": 50},
-      type="custom",
-      selected=True,
-      isConnectable=True,
-      sourcePosition="bottom",
-      targetPosition="top"
-  )
-  ```
+
+```python
+wf.add_node(
+    node_id="node1",
+    label="Start Node",
+    position={"x": 50, "y": 50},
+    type="custom",
+    selected=True,
+    isConnectable=True,
+    sourcePosition="bottom",
+    targetPosition="top"
+)
+```
 
 ### **Additional Notes**
-  - **`positionAbsoluteX` and `positionAbsoluteY`** are calculated automatically unless manually set.
-  - **`dragging=True`** should only be used for real-time drag interactions.
-  - **Use `type="custom"`** for nodes that require special rendering.
+
+- **`positionAbsoluteX` and `positionAbsoluteY`** are calculated automatically unless manually set.
+- **`dragging=True`** should only be used for real-time drag interactions.
+- **Use `type="custom"`** for nodes that require special rendering.
 
 </Steps>

@@ -7,66 +7,71 @@ import { Steps } from 'fumadocs-ui/components/steps';
 
 <Steps>
 
-  ## Adding an Edge
+## Adding an Edge
 
-  The `add_edge` method in PyWebflow allows you to create and connect edges between nodes in your graph.
+The `add_edge` method in PyWebflow allows you to create and connect edges between nodes in your graph.
 
-  ### **Usage**
-  ```python
-  wf.add_edge(edge_id, source, target, **kwargs)
-  ```
+### **Usage**
+
+```python
+wf.add_edge(edge_id, source, target, **kwargs)
+```
 
 ### **Parameters**
-| Parameter            | Type                     | Description |
-  |----------------------|-------------------------|-------------|
-| `edge_id`           | `str`                    | A unique identifier for the edge. |
-| `source`            | `str`                    | The `id` of the node where the edge originates. |
-| `target`            | `str`                    | The `id` of the node where the edge terminates. |
-| `animated`          | `Optional[bool]`         | If `True`, the edge is animated (e.g., a moving flow effect). |
-| `data`              | `Optional[Dict]`         | Custom metadata associated with the edge. |
-| `style`             | `Optional[Dict]`         | CSS styling properties for the edge. |
-| `selected`          | `Optional[bool]`         | If `True`, the edge starts as selected. |
-| `sourceHandleId`    | `Optional[str]`          | ID of the source handle (for multiple connections). |
-| `targetHandleId`    | `Optional[str]`          | ID of the target handle (for multiple connections). |
-| `interactionWidth`  | `Optional[int]`          | Defines the interaction width for edge selection. |
-| `sourceX`           | `Optional[float]`        | X-coordinate of the source node’s connection point. |
-| `sourceY`           | `Optional[float]`        | Y-coordinate of the source node’s connection point. |
-| `targetX`           | `Optional[float]`        | X-coordinate of the target node’s connection point. |
-| `targetY`           | `Optional[float]`        | Y-coordinate of the target node’s connection point. |
-| `sourcePosition`    | `Optional[str]`          | Defines where the edge originates (`"top"`, `"bottom"`, `"left"`, `"right"`). |
-| `targetPosition`    | `Optional[str]`          | Defines where the edge connects (`"top"`, `"bottom"`, `"left"`, `"right"`). |
-| `label`             | `Optional[str]`          | A text label for the edge. |
-| `labelStyle`        | `Optional[Dict]`         | CSS styling properties for the label. |
-| `labelShowBg`       | `Optional[bool]`         | If `True`, shows a background behind the label. |
-| `labelBgStyle`      | `Optional[Dict]`         | CSS styling properties for the label background. |
-| `labelBgPadding`    | `Optional[List[int]]`    | Padding for the label background (e.g., `[5, 5]`). |
-| `labelBgBorderRadius` | `Optional[int]`       | Border radius for the label background. |
-| `markerStart`       | `Optional[str]`          | Defines the starting marker (e.g., arrow). |
-| `markerEnd`         | `Optional[str]`          | Defines the ending marker (e.g., arrow). |
-| `pathOptions`       | `Optional[Dict]`         | Additional options for customizing the edge path. |
+
+| Parameter             | Type                  | Description                                                                   |
+| --------------------- | --------------------- | ----------------------------------------------------------------------------- |
+| `edge_id`             | `str`                 | A unique identifier for the edge.                                             |
+| `source`              | `str`                 | The `id` of the node where the edge originates.                               |
+| `target`              | `str`                 | The `id` of the node where the edge terminates.                               |
+| `animated`            | `Optional[bool]`      | If `True`, the edge is animated (e.g., a moving flow effect).                 |
+| `data`                | `Optional[Dict]`      | Custom metadata associated with the edge.                                     |
+| `style`               | `Optional[Dict]`      | CSS styling properties for the edge.                                          |
+| `selected`            | `Optional[bool]`      | If `True`, the edge starts as selected.                                       |
+| `sourceHandleId`      | `Optional[str]`       | ID of the source handle (for multiple connections).                           |
+| `targetHandleId`      | `Optional[str]`       | ID of the target handle (for multiple connections).                           |
+| `interactionWidth`    | `Optional[int]`       | Defines the interaction width for edge selection.                             |
+| `sourceX`             | `Optional[float]`     | X-coordinate of the source node’s connection point.                           |
+| `sourceY`             | `Optional[float]`     | Y-coordinate of the source node’s connection point.                           |
+| `targetX`             | `Optional[float]`     | X-coordinate of the target node’s connection point.                           |
+| `targetY`             | `Optional[float]`     | Y-coordinate of the target node’s connection point.                           |
+| `sourcePosition`      | `Optional[str]`       | Defines where the edge originates (`"top"`, `"bottom"`, `"left"`, `"right"`). |
+| `targetPosition`      | `Optional[str]`       | Defines where the edge connects (`"top"`, `"bottom"`, `"left"`, `"right"`).   |
+| `label`               | `Optional[str]`       | A text label for the edge.                                                    |
+| `labelStyle`          | `Optional[Dict]`      | CSS styling properties for the label.                                         |
+| `labelShowBg`         | `Optional[bool]`      | If `True`, shows a background behind the label.                               |
+| `labelBgStyle`        | `Optional[Dict]`      | CSS styling properties for the label background.                              |
+| `labelBgPadding`      | `Optional[List[int]]` | Padding for the label background (e.g., `[5, 5]`).                            |
+| `labelBgBorderRadius` | `Optional[int]`       | Border radius for the label background.                                       |
+| `markerStart`         | `Optional[str]`       | Defines the starting marker (e.g., arrow).                                    |
+| `markerEnd`           | `Optional[str]`       | Defines the ending marker (e.g., arrow).                                      |
+| `pathOptions`         | `Optional[Dict]`      | Additional options for customizing the edge path.                             |
 
 ### **Example**
-  ```python
-  wf.add_edge(
-      edge_id="edge1",
-      source="node1",
-      target="node2",
-      animated=True,
-      style={"stroke": "blue", "strokeWidth": 2},
-      label="Data Flow",
-      labelStyle={"fontSize": 14, "fill": "black"},
-      markerEnd="arrow"
-  )
-  ```
+
+```python
+wf.add_edge(
+    edge_id="edge1",
+    source="node1",
+    target="node2",
+    animated=True,
+    style={"stroke": "blue", "strokeWidth": 2},
+    label="Data Flow",
+    labelStyle={"fontSize": 14, "fill": "black"},
+    markerEnd="arrow"
+)
+```
 
 This example adds an **animated** edge between `"node1"` and `"node2"` with:
-  - **Custom styling** (`blue` color, `2px` width)
-  - **A label** `"Data Flow"` with a **custom font size**
-  - **An arrow marker** at the end
+
+- **Custom styling** (`blue` color, `2px` width)
+- **A label** `"Data Flow"` with a **custom font size**
+- **An arrow marker** at the end
 
 ### **Additional Notes**
-  - **`sourceHandleId` and `targetHandleId`** are useful for nodes with multiple connection points.
-  - **`markerStart` and `markerEnd`** allow arrows or other markers on the edges.
-  - **Use `animated=True`** to create a dynamic flow effect.
+
+- **`sourceHandleId` and `targetHandleId`** are useful for nodes with multiple connection points.
+- **`markerStart` and `markerEnd`** allow arrows or other markers on the edges.
+- **Use `animated=True`** to create a dynamic flow effect.
 
 </Steps>
