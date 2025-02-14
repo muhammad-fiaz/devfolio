@@ -1,0 +1,69 @@
+---
+title: Integration
+description: Learn how to integrate PyWebflow into your Python projects.
+---
+
+import { Steps } from 'fumadocs-ui/components/steps';
+
+<Steps>
+
+  ## Importing PyWebflow
+
+  To integrate **PyWebflow** into your Python project, follow these steps:
+
+  ### Installing PyWebflow
+  Before importing, ensure you have **PyWebflow** installed. If you haven't installed it yet, use the following command:
+
+  ```bash
+  pip install pywebflow
+  ```
+
+  ### Importing the Module
+  Once installed, you can import the `pywebflow` module into your Python script:
+
+  ```python
+  import webflow
+  ```
+
+  or
+
+  ```python
+  import pywebflow
+  ```
+
+  Both imports work identically.
+
+  ### Using an Alias
+  For convenience, you can assign a custom alias when importing **PyWebflow** to improve readability and maintainability in your code:
+
+  ```python
+  import webflow as wf
+  ```
+
+  or
+
+  ```python
+  import pywebflow as pwf
+  ```
+
+  This allows you to reference the module more concisely throughout your script.
+
+  ### Verifying the Installation
+  To confirm that **PyWebflow** is properly installed and accessible, run the following command in a Python shell:
+
+  ```python
+  import pywebflow
+  print(pywebflow.__version__)
+  ```
+
+  If the module is installed correctly, this should print the version number.
+
+  ### Next Steps
+  Once PyWebflow is successfully integrated into your project, you can:
+
+  - Now you can start creating webflow applications.
+
+  Check out the [PyWebflow documentation](https://docs.muhammadfiaz.com/projects/pywebflow) for more details on using its features effectively.
+
+</Steps>
+
