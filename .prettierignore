@@ -3,3 +3,9 @@ node_modules
 build
 dist
 public
+.source
+.github
+.vscode
+.idea
+*.log
+*.log.*

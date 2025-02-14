@@ -1,13 +1,14 @@
 {
-  "title": "Logly",
-  "description": "a fast and simple logging utility",
+  "title": "PyWebflow",
+  "description": "A Flow-Based Programming Library for Python",
   "icon": "Building2",
   "root": true,
   "pages": [
     "---Introduction---",
     "index",
     "installation",
+    "usage",
     "---Versions---",
-    "..."
+    "v0.0.1"
   ]
 }
