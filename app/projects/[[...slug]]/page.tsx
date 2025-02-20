@@ -10,6 +10,7 @@ import defaultMdxComponents from 'fumadocs-ui/mdx';
 import { getGithubLastEdit } from 'fumadocs-core/server';
 import { siteConfig } from '@/site.config';
 import { Popup, PopupContent, PopupTrigger } from 'fumadocs-twoslash/ui';
+import { metadataImage } from '@/lib/metadata';
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
@@ -78,8 +79,8 @@ export async function generateMetadata(props: {
 
   const formattedTitle = `${page.data.title} - ${page.file.dirname.split('/')[0].replace(/^./, (c) => c.toUpperCase())} | ${siteConfig.name}`;
 
-  return {
+  return metadataImage.withImage(page.slugs, {
     title: formattedTitle,
     description: page.data.description,
-  };
+  });
 }
