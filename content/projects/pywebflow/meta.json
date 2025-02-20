@@ -1,6 +1,6 @@
 {
   "title": "PyWebflow",
-  "description": "A Flow-Based Programming Library for Python",
+  "description": "A Flow-Based Framework for Python",
   "icon": "Building2",
   "root": true,
   "pages": [

@@ -1,0 +1,75 @@
+---
+title: Set Metadata
+description: Learn how to set metadata in PyWebflow to configure SEO and social sharing properties.
+---
+
+import { Steps } from 'fumadocs-ui/components/steps';
+
+<Steps>
+
+## Setting Metadata
+
+The `set_metadata` method in PyWebflow allows you to define SEO and social media metadata for your web application.
+
+### **Usage**
+
+First, import the WebFlow library:
+
+```python
+import webflow as wf
+```
+
+Then, use the `set_metadata` method as follows:
+
+```python
+wf.set_metadata(
+title="",
+description="",
+keywords="",
+...
+)
+```
+
+### **Parameters**
+
+| Parameter       | Type  | Description                                                                                     |
+| --------------- | ----- | ----------------------------------------------------------------------------------------------- |
+| `title`         | `str` | The title of the page, used in search engines and browser tabs.                                 |
+| `description`   | `str` | A short description of the page for SEO and social media.                                       |
+| `keywords`      | `str` | A comma-separated list of keywords for search engine optimization.                              |
+| `author`        | `str` | The name of the author of the page.                                                             |
+| `viewport`      | `str` | Defines how the page scales on different screen sizes.                                          |
+| `charset`       | `str` | Specifies the character encoding for the document.                                              |
+| `robots`        | `str` | Determines how search engines should index the page (`"index, follow"`, `"noindex, nofollow"`). |
+| `canonical`     | `str` | The canonical URL to avoid duplicate content issues.                                            |
+| `ogTitle`       | `str` | Open Graph title for social media sharing.                                                      |
+| `ogDescription` | `str` | Open Graph description for social media previews.                                               |
+| `ogUrl`         | `str` | The URL to be associated with the Open Graph metadata.                                          |
+| `ogImage`       | `str` | The image URL for social media sharing previews.                                                |
+
+### **Example**
+
+```python
+wf.set_metadata(
+title="My Awesome App",
+description="An innovative web application built with Webflow and FastAPI.",
+keywords="web development, python, fastapi, react",
+author="Awesome Dev",
+viewport="width=device-width, initial-scale=1.0",
+charset="UTF-8",
+robots="index, follow",
+canonical="https://example.com",
+ogTitle="My Awesome App",
+ogDescription="An innovative web application built with Webflow and FastAPI.",
+ogUrl="https://example.com",
+ogImage="https://example.com/preview.png"
+)
+```
+
+### **Additional Notes**
+
+- **Ensure your `canonical` URL is correct** to prevent duplicate content penalties in search engines.
+- **Open Graph (`og*`) metadata** is crucial for optimizing social media previews.
+- **Use relevant `keywords`** but avoid keyword stuffing for better SEO results.
+
+</Steps>

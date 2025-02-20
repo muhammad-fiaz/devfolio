@@ -1,0 +1,70 @@
+---
+title: Set Static Resources
+description: Learn how to configure static files, custom JavaScript, and custom CSS in PyWebflow.
+---
+
+import { Steps } from 'fumadocs-ui/components/steps';
+
+<Steps>
+
+## Setting Static Resources
+
+PyWebflow provides methods to set static directories, custom JavaScript, and custom CSS files for your web application.
+
+### **Usage**
+
+First, import the WebFlow library:
+
+```python
+import webflow as wf
+```
+
+Then, configure static resources using the following methods:
+
+```python
+wf.set_static_directory("static_folder")
+wf.set_custom_js("script.js")
+wf.set_custom_css("style.css")
+```
+
+### **Methods and Parameters**
+
+#### **`set_static_directory(path: str)`**
+
+| Parameter | Type  | Description                                                             |
+| --------- | ----- | ----------------------------------------------------------------------- |
+| `path`    | `str` | The directory path where static files (e.g., images, fonts) are stored. |
+
+This method sets the directory that serves static files.
+
+#### **`set_custom_js(file_path: str)`**
+
+| Parameter   | Type  | Description                                            |
+| ----------- | ----- | ------------------------------------------------------ |
+| `file_path` | `str` | The path to the custom JavaScript file to be included. |
+
+This method allows you to link a JavaScript file for additional frontend functionality.
+
+#### **`set_custom_css(file_path: str)`**
+
+| Parameter   | Type  | Description                                  |
+| ----------- | ----- | -------------------------------------------- |
+| `file_path` | `str` | The path to the custom CSS file for styling. |
+
+This method enables you to add a custom stylesheet to style your web application.
+
+### **Example**
+
+```python
+wf.set_static_directory("static")
+wf.set_custom_js("scripts/main.js")
+wf.set_custom_css("styles/main.css")
+```
+
+### **Additional Notes**
+
+- Ensure the specified static folder exists and contains the required static files.
+- Use `set_custom_js` and `set_custom_css` to enhance the frontend experience with scripts and styles.
+- The paths should be relative to your project’s root directory.
+
+</Steps>

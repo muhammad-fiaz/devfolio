@@ -1,0 +1,48 @@
+---
+title: Add HTML Content
+description: Learn how to inject custom HTML content into your PyWebflow application.
+---
+
+import { Steps } from 'fumadocs-ui/components/steps';
+
+<Steps>
+
+## Adding HTML Content
+
+The `add_html_content` method in PyWebflow allows you to dynamically insert custom HTML elements into your web application.
+
+### **Usage**
+
+First, import the WebFlow library:
+
+```python
+import webflow as wf
+```
+
+Then, use the `add_html_content` method as follows:
+
+```python
+wf.add_html_content('<div id="messages" style="padding:10px;font-size:16px;"></div>')
+```
+
+### **Parameters**
+
+| Parameter | Type  | Description                                    |
+| --------- | ----- | ---------------------------------------------- |
+| `content` | `str` | The HTML content to be inserted into the page. |
+
+### **Example**
+
+```python
+wf.add_html_content(
+'<div id="chatbox" style="border:1px solid #ccc; padding:10px;">Chat messages will appear here.</div>'
+)
+```
+
+### **Additional Notes**
+
+- **Ensure your HTML is properly formatted** to avoid rendering issues.
+- **Inline styles can be used**, but it's recommended to use CSS for better maintainability.
+- **Use unique IDs or class names** to avoid conflicts with existing elements in the DOM.
+
+</Steps>

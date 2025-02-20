@@ -1,5 +1,13 @@
 {
   "title": "Usage",
   "description": "A Brief Introduction on how to use PyWebflow!",
-  "pages": ["integration", "add_node", "add_edge"]
+  "pages": [
+    "getting_started",
+    "add_node",
+    "add_edge",
+    "set_metadata",
+    "add_html_content",
+    "configure-static-files",
+    "integration"
+  ]
 }
