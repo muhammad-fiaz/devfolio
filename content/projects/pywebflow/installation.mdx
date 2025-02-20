@@ -1,18 +1,75 @@
 ---
 title: Installation
-description: Steps to install PyWebflow.
+description: Install PyWebflow and set up a development environment.
 ---
 
 import { Steps } from 'fumadocs-ui/components/steps';
 
 <Steps>
 
-### Install PyWebflow
+## Install PyWebflow
 
-To install PyWebflow, use pip to add it to your project:
+To install PyWebflow using pip:
 
 ```bash
 pip install pywebflow
 ```
+
+To install the latest version directly from the Git repository:
+
+```bash
+pip install git+https://github.com/muhammad-fiaz/pywebflow.git
+```
+
+Now the PyWebflow library is installed and ready to use in your Python projects. For more information on how to setup PyWebflow into your projects, check out the [Getting Started Guide](https://docs.muhammadfiaz.com/projects/pywebflow/usage/getting_started).
+
+## Development Installation (For Contributors)
+
+If you're interested in contributing to PyWebflow, follow these steps to set up a development environment:
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/muhammad-fiaz/pywebflow.git
+cd pywebflow
+```
+
+### Install Python Dependencies
+
+We use `uv` as the package manager for Python. If you haven’t installed `uv`, check out the [installation guide](https://docs.astral.sh/uv/getting-started/installation/).
+
+Once installed, sync dependencies:
+
+```bash
+uv sync
+```
+
+### Install JavaScript/TypeScript Dependencies
+
+```bash
+bun i
+```
+
+### Building PyWebflow
+
+#### Build for Frontend Development
+
+```bash
+bun build:frontend
+```
+
+### Build for Production
+
+```bash
+uv build
+```
+
+Now Your can Changes can be tested by pip installing the package in your local environment.
+
+```bash
+pip install path/to/pywebflow.tar.gz
+```
+
+Once the changes you have made are finalized, make sure to test it and then you can submit a pull request to the main repository 🎉.
 
 </Steps>

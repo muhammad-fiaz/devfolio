@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+@import 'fumadocs-twoslash/twoslash.css';
 
 @source '../node_modules/fumadocs-ui/dist/**/*.js';
 @source '../node_modules/fumadocs-openapi/dist/**/*.js';
@@ -129,5 +130,61 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  button {
+    cursor: pointer;
+  }
+}
+
+@theme {
+  @keyframes stroke {
+    from {
+      stroke-dasharray: 1000;
+    }
+    to {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 2000;
+    }
+  }
+
+  --animate-stroke: stroke 5s linear infinite;
+
+  --color-gradient-radial: radial-gradient(circle, var(--tw-gradient-stops));
+  --color-repeat-gradient-to-r: repeating-linear-gradient(
+    to right,
+    var(--tw-gradient-stops)
+  );
+  --color-repeat-gradient-to-br: repeating-linear-gradient(
+    to bottom right,
+    var(--tw-gradient-stops)
+  );
+}
+
+@keyframes circuit_1 {
+  0% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+@keyframes circuit_1_x_energy {
+  0%,
+  46% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  47%,
+  70% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(212px);
   }
 }

@@ -5,26 +5,9 @@ import 'fumadocs-twoslash/twoslash.css';
 import { source } from '@/lib/source';
 import React from 'react';
 
-// Define the sidebar tabs and dynamic transformation logic
-const sidebarTabs = [
-  {
-    text: 'Projects',
-    url: '/projects',
-    title: 'Projects',
-    description: 'Projects Documentations',
-  },
-  {
-    text: 'Logly',
-    url: 'content/projects/logly/v0.0.7',
-    title: 'Logly',
-    description: 'An logging utility',
-  },
-];
-
 const docsOptions: DocsLayoutProps = {
   ...baseOptions,
   tree: source.pageTree,
-  links: sidebarTabs,
   sidebar: {
     tabs: {
       transform(option, node) {

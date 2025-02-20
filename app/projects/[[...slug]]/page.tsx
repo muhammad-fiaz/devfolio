@@ -9,6 +9,7 @@ import { notFound } from 'next/navigation';
 import defaultMdxComponents from 'fumadocs-ui/mdx';
 import { getGithubLastEdit } from 'fumadocs-core/server';
 import { siteConfig } from '@/site.config';
+import { Popup, PopupContent, PopupTrigger } from 'fumadocs-twoslash/ui';
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
@@ -34,6 +35,10 @@ export default async function Page(props: {
     <DocsPage
       toc={page.data.toc}
       full={page.data.full}
+      tableOfContent={{
+        style: 'clerk',
+        single: false,
+      }}
       editOnGithub={{
         owner: siteConfig.links.github.username,
         repo: 'devfolio',
@@ -47,7 +52,14 @@ export default async function Page(props: {
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
-        <MDX components={{ ...defaultMdxComponents }} />
+        <MDX
+          components={{
+            ...defaultMdxComponents,
+            Popup,
+            PopupContent,
+            PopupTrigger,
+          }}
+        />
       </DocsBody>
     </DocsPage>
   );
@@ -64,8 +76,10 @@ export async function generateMetadata(props: {
   const page = source.getPage(params.slug);
   if (!page) notFound();
 
+  const formattedTitle = `${page.data.title} - ${page.file.dirname.split('/')[0].replace(/^./, (c) => c.toUpperCase())} | ${siteConfig.name}`;
+
   return {
-    title: page.data.title,
+    title: formattedTitle,
     description: page.data.description,
   };
 }
