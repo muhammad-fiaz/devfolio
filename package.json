@@ -40,7 +40,7 @@
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-react": "^7.37.4",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "@types/node": "22.13.10",
+    "@types/node": "22.13.13",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "typescript": "^5.8.2",
