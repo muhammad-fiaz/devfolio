@@ -48,7 +48,7 @@
     "@tailwindcss/postcss": "^4.0.9",
     "postcss": "^8.5.3",
     "eslint": "^9.21.0",
-    "eslint-config-next": "15.2.2"
+    "eslint-config-next": "15.2.4"
   },
   "license": "MIT",
   "repository": {
