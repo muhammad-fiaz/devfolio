@@ -25,7 +25,7 @@
     "fumadocs-openapi": "^6.2.1",
     "fumadocs-twoslash": "^3.1.0",
     "fumadocs-typescript": "^3.1.0",
-    "fumadocs-ui": "15.0.18",
+    "fumadocs-ui": "15.1.2",
     "next": "15.2.3",
     "prettier": "^3.5.2",
     "react": "^19.0.0",
