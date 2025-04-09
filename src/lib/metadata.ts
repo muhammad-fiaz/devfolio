@@ -1,5 +1,5 @@
 import { createMetadataImage } from 'fumadocs-core/server';
-import { source } from './source';
+import { source } from '@/lib/source';
 
 export const metadataImage = createMetadataImage({
   imageRoute: '/projects-og',

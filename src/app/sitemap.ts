@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 import { source } from '@/lib/source';
-import { siteConfig } from '@/site.config'; // Importing site configuration
+import { siteConfig } from '../../site.config';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const pages = await source.getPages(); // Fetch all documentation pages

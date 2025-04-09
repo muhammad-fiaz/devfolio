@@ -6,10 +6,10 @@ import {
   DocsTitle,
 } from 'fumadocs-ui/page';
 import { notFound } from 'next/navigation';
-import defaultMdxComponents from 'fumadocs-ui/mdx';
+import { createRelativeLink } from 'fumadocs-ui/mdx';
+import { getMDXComponents } from '@/mdx-components';
 import { getGithubLastEdit } from 'fumadocs-core/server';
-import { siteConfig } from '@/site.config';
-import { Popup, PopupContent, PopupTrigger } from 'fumadocs-twoslash/ui';
+import { siteConfig } from '../../../../site.config';
 import { metadataImage } from '@/lib/metadata';
 
 export default async function Page(props: {
@@ -18,7 +18,6 @@ export default async function Page(props: {
   const params = await props.params;
   const page = source.getPage(params.slug);
   if (!page) notFound();
-
   // Fetch the last modified time
   const lastModified =
     process.env.NODE_ENV === 'development'
@@ -31,7 +30,8 @@ export default async function Page(props: {
             ? `Bearer ${process.env.GIT_TOKEN}`
             : undefined,
         });
-  const MDX = page.data.body;
+  const MDXContent = page.data.body;
+
   return (
     <DocsPage
       toc={page.data.toc}
@@ -50,16 +50,15 @@ export default async function Page(props: {
         lastModified ? new Date(lastModified).toLocaleString() : undefined
       }
     >
+      {' '}
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
-        <MDX
-          components={{
-            ...defaultMdxComponents,
-            Popup,
-            PopupContent,
-            PopupTrigger,
-          }}
+        <MDXContent
+          components={getMDXComponents({
+            // this allows you to link to other pages with relative file paths
+            a: createRelativeLink(source, page),
+          })}
         />
       </DocsBody>
     </DocsPage>
