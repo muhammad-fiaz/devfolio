@@ -21,7 +21,7 @@
     "ajv": "^8.17.1",
     "class-variance-authority": "^0.7.1",
     "fumadocs-core": "15.0.16",
-    "fumadocs-mdx": "11.5.7",
+    "fumadocs-mdx": "11.5.8",
     "fumadocs-openapi": "^6.2.1",
     "fumadocs-twoslash": "^3.1.0",
     "fumadocs-typescript": "^3.1.0",
