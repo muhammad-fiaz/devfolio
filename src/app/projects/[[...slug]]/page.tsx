@@ -23,13 +23,13 @@ export default async function Page(props: {
     process.env.NODE_ENV === 'development'
       ? null
       : await getGithubLastEdit({
-        owner: siteConfig.links.github.username,
-        repo: 'devfolio',
-        path: `content/projects/${page.file.path}`,
-        token: process.env.GIT_TOKEN
-          ? `Bearer ${process.env.GIT_TOKEN}`
-          : undefined,
-      });
+          owner: siteConfig.links.github.username,
+          repo: 'devfolio',
+          path: `content/projects/${page.file.path}`,
+          token: process.env.GIT_TOKEN
+            ? `Bearer ${process.env.GIT_TOKEN}`
+            : undefined,
+        });
   const MDXContent = page.data.body;
 
   return (
@@ -49,7 +49,9 @@ export default async function Page(props: {
       lastUpdate={
         lastModified ? new Date(lastModified).toLocaleString() : undefined
       }
-    >        <DocsTitle>{page.data.title}</DocsTitle>
+    >
+      {' '}
+      <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
         <MDXContent
@@ -66,7 +68,6 @@ export default async function Page(props: {
 export async function generateStaticParams() {
   return source.generateParams();
 }
-
 
 export async function generateMetadata(props: {
   params: Promise<{ slug?: string[] }>;
