@@ -17,7 +17,7 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Fiaz Technologies',
+  name: 'Muhammad Fiaz',
   shortName: 'Docs',
   description:
     'This site serves as a centralized resource for users to explore technical guides, setup instructions, usage examples, and contributions to my open-source projects.',
@@ -28,6 +28,6 @@ export const siteConfig: SiteConfig = {
       username: 'muhammad-fiaz',
       url: 'https://github.com/muhammad-fiaz',
     },
-    github_org: 'https://github.com/fiaztechnologies',
+    github_org: 'https://github.com/muhammad-fiaz',
   },
 };
